@@ -1,0 +1,55 @@
+- platform: mqtt
+  name: "Box Fan"
+  state_topic: "stat/master_bedroom/box_fan/POWER"
+  command_topic: "cmnd/master_bedroom/box_fan/POWER"
+  qos: 1
+  payload_on: "ON"
+  payload_off: "OFF"
+  retain: true
+    
+- platform: mqtt
+  name: "dish_ir_onoff"
+  state_topic: "home/IRtoMQTT" # defined by subjectGTWIRtoMQTT in User_config.h
+  command_topic: "home/commands/IR_DISH"
+  payload_on: "1152"
+  payload_off: "40064"
+  optimistic: false
+  retain: true
+    
+- platform: mqtt
+  name: "Main Pool Pump"
+  state_topic: "home/pool/pump1/state"
+  command_topic: "home/pool/pump1"
+  payload_on: 1
+  payload_off: 0
+  optimistic: true
+  qos: 2
+  retain: true
+  value_template: "{{ value }}"
+  
+- platform: mqtt
+  name: "Master Bath Floor Heat"
+  state_topic: "home/masterbath/mbath_thermostat/tele/STATE"
+  command_topic: "home/masterbath/mbath_thermostat/cmnd/POWER"
+  optimistic: true
+  qos: 0
+  retain: false
+  payload_on: "ON"
+  payload_off: "OFF"
+  value_template: "{{ value_json.POWER }}"
+
+- platform: broadlink
+  host: 192.168.0.132
+  mac: !secret broadlink_sw_office
+  timeout: 15
+  friendly_name: "Broadlink, Office"
+  switches:
+    !include_dir_merge_named broadlink
+    
+- platform: broadlink
+  host: 192.168.0.126
+  mac: !secret broadlink_sw_masterbedroom
+  timeout: 15
+  friendly_name: "Broadlink, Master Bedroom"
+  switches:
+    !include_dir_merge_named broadlink

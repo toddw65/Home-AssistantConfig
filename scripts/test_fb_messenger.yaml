@@ -1,0 +1,19 @@
+alias: test_fb_notification
+sequence:
+  - service: notify.facebook
+    data:
+      message: This is a test message
+      target: !secret todd_phone_facebook
+#      data:
+#        quick_replies:
+#          - content_type: text
+#            title: Red
+#            payload:  >  
+#              {
+#              "type":"web_url",
+#              "url":"https://www.messenger.com",
+#              "title":"Visit Messenger"
+#              }
+#          - content_type: text
+#            title: Blue
+#            payload: DEVELOPER_DEFINED_PAYLOAD_FOR_PICKING_BLUE

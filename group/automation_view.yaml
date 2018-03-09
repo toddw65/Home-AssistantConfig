@@ -1,0 +1,52 @@
+#################
+#   Automation  #
+#################
+automation_view:
+  name: Automation
+  view: yes
+  icon: mdi:brightness-auto
+  entities:
+    - group.scenes
+    - group.motion_sensors
+    - group.notifications
+    - group.all_automations
+    - automation.angela_home_after_dark
+    - automation.angela_home_before_dark
+    - automation.todd_home_after_dark
+    - automation.todd_home_before_dark
+    - automation.no_one_home
+    - automation.notify_smoke_detected
+    - automation.notify_co_detected
+
+############################################################
+
+scenes:
+  name: Scenes
+  entities:
+    - automation.hello
+    - automation.goodbye
+    - automation.goodnight
+    - automation.sunset
+
+motion_sensors:
+  name: Motion Sensors
+  entities:
+    - automation.stair_lights
+    - automation.basement_door_open
+    - automation.basement_door_closed
+    - automation.garage_light
+    - automation.garage_entry
+    - automation.garage_entry_motion
+
+notifications:
+  name: Notifications
+  entities:
+    - automation.FrontDoor_battery
+    - automation.basement_door_battery
+    - automation.Bedroom_motion_sensor_battery
+    - automation.Stairs_motion_sensor_battery
+    - automation.garage_motion_sensor_battery
+    - automation.garage_door_battery
+    - automation.angela_is_away
+    - automation.angela_is_home
+    - automation.update_available_notifications

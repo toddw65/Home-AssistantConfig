@@ -1,0 +1,11 @@
+- platform: generic_thermostat
+  name: Master Bathroom Thermostat
+  heater: switch.master_bath_floor_heat
+  target_sensor: sensor.master_bath_room_temperature
+  operation_mode: auto
+  min_temp: 50
+  max_temp: 90
+  #hot_tolerance: 0
+  initial_operation_mode: "auto"
+  min_cycle_duration:
+    seconds: 5

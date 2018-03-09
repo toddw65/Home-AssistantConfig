@@ -1,0 +1,4 @@
+logger:
+  default: error
+  logs:
+    requests.packages.urllib3: critical

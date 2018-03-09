@@ -1,0 +1,11 @@
+alias: Stop Radio on Chromecast Audio
+sequence:
+  -  service: media_player.turn_off
+     data_template:
+       entity_id: >
+        {% if is_state("input_select.chromecast_radio", "Office") %} media_player.office_speaker
+        {% elif is_state("input_select.chromecast_radio", "Kitchen") %} media_player.kitchen_speaker 
+        {% elif is_state("input_select.chromecast_radio", "Master Bedroom") %} media_player.master_bedroom_speaker 
+        {% elif is_state("input_select.chromecast_radio", "Everywhere") %} media_player.all_speakers
+        {% else %} none
+        {% endif %}

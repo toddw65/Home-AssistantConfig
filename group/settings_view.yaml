@@ -1,0 +1,60 @@
+###############
+#   Settings  #
+###############
+settings_view:
+  name: Settings
+  view: yes
+  icon: mdi:settings
+  entities:
+    - group.battery_alert
+    - group.battery_level
+    - group.internet_status
+    - group.pi_status
+    - group.hass_restart
+    - group.theme
+    - camera.grafana
+
+########################################################
+
+battery_level:
+  name: Battery Levels
+  entities:
+    - sensor.FrontDoor_battery
+    - sensor.laundryroom_smokeco_detector_batterylevel
+    - sensor.todds_phone_battery
+    - sensor.angelas_phone_battery
+#    - sensor.basement_door
+#    - sensor.garage_door_sensor
+#    - sensor.stairs_motion_battery
+#    - sensor.garage_motion_battery
+
+internet_status:
+  name: Internet Status
+  entities:
+    - sensor.speedtest_upload
+    - sensor.speedtest_download
+
+pi_status:
+  name: Raspberry Pi Status
+  entities:
+    - sensor.cpu_speed
+    - sensor.last_boot
+    - sensor.disk_use_
+    - sensor.ram_use
+
+hass_restart:
+  name: Home Assistant Restart
+  entities:
+    - switch.hass_restart
+
+theme:
+  name: Theme
+  entities:
+    - input_select.current_theme
+
+    
+#log_levels:
+#  name: Logging Levels
+#  view: yes
+#  entities:
+#    - input_select.log_level

@@ -1,0 +1,2 @@
+ create_keys: ssh-keygen -t rsa -N "" -f idrsa
+ copy_key: ssh-copy-id -i idrsa pi@198.98.61.105

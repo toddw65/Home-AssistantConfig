@@ -1,0 +1,5 @@
+sequence:
+  service: light.turn_on
+  data:
+    entity_id: "group.outside_lights"
+

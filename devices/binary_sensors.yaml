@@ -1,0 +1,78 @@
+- platform: mqtt
+  name: "Todd's Zanzito status"
+  state_topic: "zanzito/todd/status"
+  payload_on: "1"
+  payload_off: "0"
+  sensor_class: connectivity
+
+- platform: mqtt
+  name: "Angela's Zanzito status"
+  state_topic: "zanzito/angela/status"
+  payload_on: "1"
+  payload_off: "0"
+  sensor_class: connectivity
+  
+- platform: mqtt
+  state_topic: dummy/floorplan/sensor
+  name: Floorplan
+
+- platform: mqtt
+  name: "OpenMQTTGateway"
+  state_topic: "home/OpenMQTTGateway/LWT"
+  payload_on: "Online"
+  payload_off: "Offline"
+  device_class: "connectivity"
+  
+- platform: bayesian
+  prior: 0.75
+  name: "Todd Presence"
+  probability_threshold: 0.9
+  observations:
+    - entity_id: 'device_tracker.todd_ping'
+      prob_given_true: 0.9
+      prob_given_false: 0.1
+      platform: 'state'
+      to_state: 'home'
+    - entity_id: 'device_tracker.mosquitto_todd'
+      prob_given_true: 0.9
+      prob_given_false: 0.4
+      platform: 'state'
+      to_state: 'home'
+    - entity_id: 'device_tracker.todd_zanzito'
+      prob_given_true: 0.9
+      prob_given_false: 0.4
+      platform: 'state'
+      to_state: 'home'
+    - entity_id: 'device_tracker.todd_bt'
+      prob_given_true: 0.8
+      prob_given_false: 0.2
+      platform: 'state'
+      to_state: 'home'
+      
+- platform: bayesian
+  prior: 0.75
+  name: "Angela Presence"
+  probability_threshold: 0.9
+  observations:
+    - entity_id: 'device_tracker.angela_ping'
+      prob_given_true: 0.9
+      prob_given_false: 0.1
+      platform: 'state'
+      to_state: 'home'
+    - entity_id: 'device_tracker.mosquitto_angela'
+      prob_given_true: 0.7
+      prob_given_false: 0.4
+      platform: 'state'
+      to_state: 'home'      
+    - entity_id: 'device_tracker.angela_zanzito'
+      prob_given_true: 0.7
+      prob_given_false: 0.4
+      platform: 'state'
+      to_state: 'home'
+    - entity_id: 'device_tracker.angela_bt'
+      prob_given_true: 0.8
+      prob_given_false: 0.2
+      platform: 'state'
+      to_state: 'home'
+      
+ 

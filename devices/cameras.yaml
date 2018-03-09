@@ -1,0 +1,42 @@
+-  platform: mjpeg
+   mjpeg_url: http://192.168.0.135:81/mjpg/pool/video.mjpg
+   name: pool
+   username: !secret camera_username
+   password: !secret camera_password
+   authentication: basic
+   
+-  platform: mjpeg
+   mjpeg_url: http://192.168.0.135:81/mjpg/frontdoor/video.mjpg
+   name: frontdoor
+   username: !secret camera_username
+   password: !secret camera_password
+   authentication: basic
+
+-  platform: generic
+   name: Propane Level
+   still_image_url: http://localhost:8123/local/tank.png
+   limit_refetch_to_url_change: false
+   
+-  platform: generic
+   name: Angela
+   still_image_url: https://maps.googleapis.com/maps/api/staticmap?size=500x500&maptype=satellite&markers=color:pink|label:Angela|{{ states.device_tracker.mosquitto_angela.attributes.latitude }},{{ states.device_tracker.mosquitto_angela.attributes.longitude }}
+   #&markers=color:red|label:A|{{ states.device_tracker.person3.attributes.latitude }},{{ states.device_tracker.person3.attributes.longitude }}
+   limit_refetch_to_url_change: true
+
+-  platform: generic
+   name: Todd
+   still_image_url: https://maps.googleapis.com/maps/api/staticmap?size=500x500&maptype=satellite&markers=color:blue|label:Todd|{{ states.device_tracker.mosquitto_todd.attributes.latitude }},{{ states.device_tracker.mosquitto_todd.attributes.longitude }}
+   #&markers=color:red|label:A|{{ states.device_tracker.person3.attributes.latitude }},{{ states.device_tracker.person3.attributes.longitude }}
+   limit_refetch_to_url_change: true
+   
+- platform: generic
+  name: Grafana Temperatures
+  still_image_url: http://192.168.0.100:3003/render/dashboard-solo/db/main?panelId=1&width=1000&height=500
+  username: root
+  password: root
+   
+- platform: generic
+  name: Grafana Power Usage
+  still_image_url: 'http://192.168.0.100:3003/render/dashboard-solo/db/main?panelId=6&width=1000&height=500'
+  username: !secret grafana_user
+  password: !secret grafana_pass

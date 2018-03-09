@@ -1,0 +1,14 @@
+alias: Jarvis Greeting
+sequence:
+  - service: tts.google_say
+    data_template:
+      entity_id: media_player.office_speaker
+      message: >
+        {% if now().strftime("%H")|int < 12 %}
+        Good morning. It's currently {{states.sensor.dark_sky_summary.state}} and {{states.sensor.dark_sky_temperature.state|round}} degrees in {{states.sensor.my_city.state}}. Today will be {{states.sensor.dark_sky_hourly_summary.state|replace(".", "")}}, with a low of {{states.sensor.dark_sky_daily_low_temperature.state|round}} degrees and a high of {{states.sensor.dark_sky_daily_high_temperature.state|round}} degrees.  Have a great day.
+        {% elif now().strftime("%H")|int < 18 %}
+        Good afternoon. It's currently {{states.sensor.dark_sky_summary.state}} and {{states.sensor.dark_sky_temperature.state|round}} degrees in {{states.sensor.my_city.state}}. Today will be {{states.sensor.dark_sky_hourly_summary.state|replace(".", "")}}, with a low of {{states.sensor.dark_sky_daily_low_temperature.state|round}} degrees and a high of {{states.sensor.dark_sky_daily_high_temperature.state|round}} degrees.  Enjoy the rest of your day.
+        {% else %}
+        Good evening. It's currently {{states.sensor.dark_sky_summary.state}} and {{states.sensor.dark_sky_temperature.state|round}} degrees in {{states.sensor.my_city.state}}. Today will be {{states.sensor.dark_sky_hourly_summary.state|replace(".", "")}}, with a low of {{states.sensor.dark_sky_daily_low_temperature.state|round}} degrees and a high of {{states.sensor.dark_sky_daily_high_temperature.state|round}} degrees. Have a good evening.
+        {% endif %}
+        

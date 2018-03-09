@@ -1,0 +1,6 @@
+sequence:
+  service: mqtt.publish
+  data:
+    topic: "home/commands/IR_NEC"
+    payload: "551489775"
+    retain: false

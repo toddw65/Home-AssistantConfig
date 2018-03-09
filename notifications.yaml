@@ -1,0 +1,136 @@
+##############
+#  Presence  #
+##############
+- id: angela_home
+  alias: Angela is home
+  trigger:
+    platform: state
+    entity_id: group.angela
+    to: 'home'
+    from: 'not_home'
+  action:
+    - service: notify.join
+      data:
+        message: "Angela is Home"
+    - service: notify.ToddsBot
+      data:
+        message: "Angela is Home"
+
+- id: angela_away
+  alias: Angela is away
+  trigger:
+    platform: state
+    entity_id: group.angela
+    to: 'home'
+    from: 'not_home'
+  action:
+    - service: notify.join
+      data:
+        message: "Angela is Away"
+    - service: notify.ToddsBot
+      data:
+        message: "Angela is Away"
+        
+- id: todd_home
+  alias: Todd is home
+  trigger:
+    platform: state
+    entity_id: group.todd
+    to: 'home'
+    from: 'not_home'
+  action:
+    - service: notify.join
+      data:
+        message: "Todd is Home"
+    - service: notify.ToddsBot
+      data:
+        message: "Todd is Home"
+
+- id: todd_away
+  alias: Todd is away
+  trigger:
+    platform: state
+    entity_id: group.todd
+    to: 'home'
+    from: 'not_home'
+  action:
+    - service: notify.join
+      data:
+        message: "Todd is Away"
+    - service: notify.ToddsBot
+      data:
+        message: "Todd is Away"
+
+##############
+#  Updates   #
+##############
+- id: hass_update_avail
+  alias: 'Update Available Notifications'
+  trigger:
+    platform: homeassistant
+    entity_id: updater.updater
+  action:
+    - service: notify.ToddsBot
+      data:
+        message: "A new update for Home Assistant is available."
+    - service: persistent_notification.create
+      data:
+        title:   "New Update"
+        message: "A new update for Home Assistant is available."
+
+- id: update_avail 
+  alias: Update notifications
+  trigger:
+    - platform: homeassistant
+      entity_id: updater.updater
+  action:
+    service: notify.ToddsBot
+    data_template: 
+      title: 'New Home Assistant Release'
+      #target: 'YOUR_TARGET_HERE' #See Pushbullet component for usage
+      message: "Home Assistant  {{ states.updater.updater.state }}  is now available."
+      
+        
+##############
+#  Network  #
+#############
+- id: zwave_ready
+  alias: Z-Wave network is complete
+  trigger:
+    platform: event
+    event_type: zwave.network_ready
+  action:
+    service: notify.ToddsBot
+    data:
+      message: "Z-Wave Network is up"
+
+##############
+#  Battery  #
+#############
+- id: frontdoor_battery
+  alias: Front door battery
+  trigger:
+    platform: numeric_state
+    entity_id: sensor.frontdoor_battery
+    below: 90
+  action:
+    service: notify.ToddsBot
+    data:
+      message: "The front door battery is at {{ states.sensor.frontdoor_battery.state }}%"
+
+
+- id: pool_motion
+  alias: Pool Motion
+  trigger:
+    platform: state
+    entity_id: binary_sensor.camera_pool
+    to: 'on'
+  action:
+    service: homeassistant.turn_on
+    entity_id: script.pool_motion_on
+    
+    
+#  condition:
+#    condition: sun
+#    after: sunset
+#    after_offset: '-00:05:00'

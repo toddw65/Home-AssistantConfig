@@ -1,0 +1,2964 @@
+'dish_key_exit':
+  friendly_name: "Dish_KEY_EXIT"
+  command_on: 'JgBIAAzFDF0LNgteDF0OMw1cC10LXgs2C10NXQxcDVsMXQtdDVwNxAxdCzYLXgxdDDUMXQtdDF0LNgtcDV4LXQxcDlsLXQ5bDAANBQ=='
+
+'dish_key_lastchannel':
+  friendly_name: "Dish_KEY_LASTCHANNEL"
+  command_on: 'JgBIAAzFDF0LNgteDF0OMw1cC10LXgs2C10NXQxcDVsMXQtdDVwNxAxdCzYLXgxdDDUMXQtdDF0LNgtcDV4LXQxcDlsLXQ5bDAANBQ=='
+  
+'dish_key_info':
+  friendly_name: "Dish_KEY_INFO"
+  command_on: ''
+  
+'dish_key_power':
+  friendly_name: "Dish_KEY_POWER"
+  command_on: ''
+  
+'dish_key_power2':
+  friendly_name: "Dish_KEY_POWER2"
+  command_on: ''
+  
+'dish_key_1':
+  friendly_name: "Dish_KEY_1"
+  command_on: ''
+  
+'dish_key_2':
+  friendly_name: "Dish_KEY_2"
+  command_on: ''
+  
+'dish_key_3':
+  friendly_name: "Dish_KEY_3"
+  command_on: ''
+  
+'dish_key_4':
+  friendly_name: "Dish_KEY_4"
+  command_on: ''
+  
+'dish_key_5':
+  friendly_name: "Dish_KEY_5"
+  command_on: ''
+  
+'dish_key_6':
+  friendly_name: "Dish_KEY_6"
+  command_on: ''
+  
+'dish_key_7':
+  friendly_name: "Dish_KEY_7"
+  command_on: ''
+  
+'dish_key_8':
+  friendly_name: "Dish_KEY_8"
+  command_on: ''
+  
+'dish_key_9':
+  friendly_name: "Dish_KEY_9"
+  command_on: ''
+  
+'dish_key_0':
+  friendly_name: "Dish_KEY_0"
+  command_on: ''
+  
+'dish_key_menu':
+  friendly_name: "Dish_KEY_MENU"
+  command_on: ''
+  
+'dish_key_select':
+  friendly_name: "Dish_KEY_SELECT"
+  command_on: ''
+  
+'dish_key_cancel':
+  friendly_name: "Dish_KEY_CANCEL"
+  command_on: 'JgBIAAzDDjQNXAxdDDUMNgs2C14MXQw1DF0MXAteC10NXAxdDFwMxQw1DF0NXAw1DDYMNQxdDFwLNwtdDF0MXQxcDFwMXQ1cDAANBQ=='
+  
+'dish_key_epg':
+  friendly_name: "Dish_KEY_EPG"
+  command_on: ''
+  
+'dish_view':
+  friendly_name: "Dish_view"
+  command_on: ''
+  
+'dish_tv_vcr':
+  friendly_name: "Dish_tv_vcr"
+  command_on: ''
+  
+'dish_key_right':
+  friendly_name: "Dish_KEY_RIGHT"
+  command_on: ''
+  
+'dish_key_up':
+  friendly_name: "Dish_KEY_UP"
+  command_on: ''
+  
+'dish_key_again':
+  friendly_name: "Dish_KEY_AGAIN"
+  command_on: ''
+  
+'dish_key_left':
+  friendly_name: "Dish_KEY_LEFT"
+  command_on: ''
+  
+'dish_key_down':
+  friendly_name: "Dish_KEY_DOWN"
+  command_on: ''
+  
+'dish_key_record':
+  friendly_name: "Dish_KEY_RECORD"
+  command_on: ''
+  
+'dish_key_pause':
+  friendly_name: "Dish_KEY_PAUSE"
+  command_on: ''
+  
+'dish_key_stop':
+  friendly_name: "Dish_KEY_STOP"
+  command_on: ''
+  
+'dish_sys_info':
+  friendly_name: "Dish_sys_info"
+  command_on: ''
+  
+'dish_key_kpasterisk':
+  friendly_name: "Dish_KEY_KPASTERISK"
+  command_on: ''
+  
+'dish_pound':
+  friendly_name: "Dish_pound"
+  command_on: ''
+  
+'dish_power_off':
+  friendly_name: "Dish_power_off"
+  command_on: '260048000dc40c350d5b0e5b0c350e340e330e5b0c5d0d340c5d0c5c0b5e0b5d0e5b0c5c0d5c0bc60e330e5b0e5b0c350d350d340c5d0c5c0e330e5b0e5b0d5b0d5c0c5c0e5b0d5c0d000d05'
+  
+'dish_key_sat':
+  friendly_name: "Dish_KEY_SAT"
+  command_on: ''
+  
+'dish_dish_home':
+  friendly_name: "Dish_dish_home"
+  command_on: ''
+  
+'dish_sys_info2':
+  friendly_name: "Dish_sys_info2"
+  command_on: ''
+  
+'dish_dish_home2':
+  friendly_name: "Dish_dish_home2"
+  command_on: ''
+  
+'dish_key_info_2':
+  friendly_name: "Dish_KEY_INFO_2"
+  command_on: ''
+  
+'dish_key_power_2':
+  friendly_name: "Dish_KEY_POWER_2"
+  command_on: ''
+  
+'dish_key_power2_2':
+  friendly_name: "Dish_KEY_POWER2_2"
+  command_on: ''
+  
+'dish_key_1_2':
+  friendly_name: "Dish_KEY_1_2"
+  command_on: ''
+  
+'dish_key_2_2':
+  friendly_name: "Dish_KEY_2_2"
+  command_on: ''
+  
+'dish_key_3_2':
+  friendly_name: "Dish_KEY_3_2"
+  command_on: ''
+  
+'dish_key_4_2':
+  friendly_name: "Dish_KEY_4_2"
+  command_on: ''
+  
+'dish_key_5_2':
+  friendly_name: "Dish_KEY_5_2"
+  command_on: ''
+  
+'dish_key_6_2':
+  friendly_name: "Dish_KEY_6_2"
+  command_on: ''
+  
+'dish_key_7_2':
+  friendly_name: "Dish_KEY_7_2"
+  command_on: ''
+  
+'dish_key_8_2':
+  friendly_name: "Dish_KEY_8_2"
+  command_on: ''
+  
+'dish_key_9_2':
+  friendly_name: "Dish_KEY_9_2"
+  command_on: ''
+  
+'dish_key_0_2':
+  friendly_name: "Dish_KEY_0_2"
+  command_on: ''
+  
+'dish_key_menu_2':
+  friendly_name: "Dish_KEY_MENU_2"
+  command_on: ''
+  
+'dish_key_select_2':
+  friendly_name: "Dish_KEY_SELECT_2"
+  command_on: ''
+  
+'dish_key_cancel_2':
+  friendly_name: "Dish_KEY_CANCEL_2"
+  command_on: ''
+  
+'dish_key_epg_2':
+  friendly_name: "Dish_KEY_EPG_2"
+  command_on: ''
+  
+'dish_view_2':
+  friendly_name: "Dish_view_2"
+  command_on: ''
+  
+'dish_tv_vcr_2':
+  friendly_name: "Dish_tv_vcr_2"
+  command_on: ''
+  
+'dish_key_right_2':
+  friendly_name: "Dish_KEY_RIGHT_2"
+  command_on: ''
+  
+'dish_key_up_2':
+  friendly_name: "Dish_KEY_UP_2"
+  command_on: ''
+  
+'dish_key_again_2':
+  friendly_name: "Dish_KEY_AGAIN_2"
+  command_on: ''
+  
+'dish_key_left_2':
+  friendly_name: "Dish_KEY_LEFT_2"
+  command_on: ''
+  
+'dish_key_down_2':
+  friendly_name: "Dish_KEY_DOWN_2"
+  command_on: ''
+  
+'dish_key_record_2':
+  friendly_name: "Dish_KEY_RECORD_2"
+  command_on: ''
+  
+'dish_key_pause_2':
+  friendly_name: "Dish_KEY_PAUSE_2"
+  command_on: ''
+  
+'dish_key_stop_2':
+  friendly_name: "Dish_KEY_STOP_2"
+  command_on: ''
+  
+'dish_sys_info_2':
+  friendly_name: "Dish_sys_info_2"
+  command_on: ''
+  
+'dish_key_kpasterisk_2':
+  friendly_name: "Dish_KEY_KPASTERISK_2"
+  command_on: ''
+  
+'dish_pound_2':
+  friendly_name: "Dish_pound_2"
+  command_on: ''
+  
+'dish_power_off_2':
+  friendly_name: "Dish_power_off_2"
+  command_on: ''
+  
+'dish_key_sat_2':
+  friendly_name: "Dish_KEY_SAT_2"
+  command_on: ''
+  
+'dish_#':
+  friendly_name: "Dish_#"
+  command_on: ''
+  
+'dish_#_2':
+  friendly_name: "Dish_#_2"
+  command_on: ''
+  
+'dish_dish_home2_2':
+  friendly_name: "Dish_dish_home2_2"
+  command_on: ''
+  
+'dish_dvr':
+  friendly_name: "Dish_dvr"
+  command_on: ''
+  
+'dish_skip_fwd':
+  friendly_name: "Dish_skip_fwd"
+  command_on: ''
+  
+'dish_skip_back':
+  friendly_name: "Dish_skip_back"
+  command_on: ''
+  
+'dish_key_forward':
+  friendly_name: "Dish_KEY_FORWARD"
+  command_on: ''
+  
+'dish_key_play':
+  friendly_name: "Dish_KEY_PLAY"
+  command_on: ''
+  
+'dish_key_back':
+  friendly_name: "Dish_KEY_BACK"
+  command_on: ''
+  
+'dish_dish':
+  friendly_name: "Dish_dish"
+  command_on: ''
+  
+'dish_key_pageup':
+  friendly_name: "Dish_KEY_PAGEUP"
+  command_on: ''
+  
+'dish_key_pagedown':
+  friendly_name: "Dish_KEY_PAGEDOWN"
+  command_on: ''
+  
+'dish_key_info_3':
+  friendly_name: "Dish_KEY_INFO_3"
+  command_on: ''
+  
+'dish_key_power_3':
+  friendly_name: "Dish_KEY_POWER_3"
+  command_on: ''
+  
+'dish_key_power2_3':
+  friendly_name: "Dish_KEY_POWER2_3"
+  command_on: ''
+  
+'dish_key_1_3':
+  friendly_name: "Dish_KEY_1_3"
+  command_on: ''
+  
+'dish_key_2_3':
+  friendly_name: "Dish_KEY_2_3"
+  command_on: ''
+  
+'dish_key_3_3':
+  friendly_name: "Dish_KEY_3_3"
+  command_on: ''
+  
+'dish_key_4_3':
+  friendly_name: "Dish_KEY_4_3"
+  command_on: ''
+  
+'dish_key_5_3':
+  friendly_name: "Dish_KEY_5_3"
+  command_on: ''
+  
+'dish_key_6_3':
+  friendly_name: "Dish_KEY_6_3"
+  command_on: ''
+  
+'dish_key_7_3':
+  friendly_name: "Dish_KEY_7_3"
+  command_on: ''
+  
+'dish_key_8_3':
+  friendly_name: "Dish_KEY_8_3"
+  command_on: ''
+  
+'dish_key_9_3':
+  friendly_name: "Dish_KEY_9_3"
+  command_on: ''
+  
+'dish_key_0_3':
+  friendly_name: "Dish_KEY_0_3"
+  command_on: ''
+  
+'dish_key_menu_3':
+  friendly_name: "Dish_KEY_MENU_3"
+  command_on: ''
+  
+'dish_key_select_3':
+  friendly_name: "Dish_KEY_SELECT_3"
+  command_on: ''
+  
+'dish_key_cancel_3':
+  friendly_name: "Dish_KEY_CANCEL_3"
+  command_on: ''
+  
+'dish_key_epg_3':
+  friendly_name: "Dish_KEY_EPG_3"
+  command_on: ''
+  
+'dish_view_3':
+  friendly_name: "Dish_view_3"
+  command_on: ''
+  
+'dish_tv_vcr_3':
+  friendly_name: "Dish_tv_vcr_3"
+  command_on: ''
+  
+'dish_key_right_3':
+  friendly_name: "Dish_KEY_RIGHT_3"
+  command_on: ''
+  
+'dish_key_up_3':
+  friendly_name: "Dish_KEY_UP_3"
+  command_on: ''
+  
+'dish_key_again_3':
+  friendly_name: "Dish_KEY_AGAIN_3"
+  command_on: ''
+  
+'dish_key_left_3':
+  friendly_name: "Dish_KEY_LEFT_3"
+  command_on: ''
+  
+'dish_key_down_3':
+  friendly_name: "Dish_KEY_DOWN_3"
+  command_on: ''
+  
+'dish_key_record_3':
+  friendly_name: "Dish_KEY_RECORD_3"
+  command_on: ''
+  
+'dish_key_pause_3':
+  friendly_name: "Dish_KEY_PAUSE_3"
+  command_on: ''
+  
+'dish_key_stop_3':
+  friendly_name: "Dish_KEY_STOP_3"
+  command_on: ''
+  
+'dish_sys_info_3':
+  friendly_name: "Dish_sys_info_3"
+  command_on: ''
+  
+'dish_key_kpasterisk_3':
+  friendly_name: "Dish_KEY_KPASTERISK_3"
+  command_on: ''
+  
+'dish_pound_3':
+  friendly_name: "Dish_pound_3"
+  command_on: ''
+  
+'dish_power_off_3':
+  friendly_name: "Dish_power_off_3"
+  command_on: ''
+  
+'dish_key_sat_3':
+  friendly_name: "Dish_KEY_SAT_3"
+  command_on: ''
+  
+'dish_#_3':
+  friendly_name: "Dish_#_3"
+  command_on: ''
+  
+'dish_#_4':
+  friendly_name: "Dish_#_4"
+  command_on: ''
+  
+'dish_dish_home2_3':
+  friendly_name: "Dish_dish_home2_3"
+  command_on: ''
+  
+'dish_dvr_2':
+  friendly_name: "Dish_dvr_2"
+  command_on: ''
+  
+'dish_skip_fwd_2':
+  friendly_name: "Dish_skip_fwd_2"
+  command_on: ''
+  
+'dish_skip_back_2':
+  friendly_name: "Dish_skip_back_2"
+  command_on: ''
+  
+'dish_key_forward_2':
+  friendly_name: "Dish_KEY_FORWARD_2"
+  command_on: ''
+  
+'dish_key_play_2':
+  friendly_name: "Dish_KEY_PLAY_2"
+  command_on: ''
+  
+'dish_key_back_2':
+  friendly_name: "Dish_KEY_BACK_2"
+  command_on: ''
+  
+'dish_dish_2':
+  friendly_name: "Dish_dish_2"
+  command_on: ''
+  
+'dish_key_pageup_2':
+  friendly_name: "Dish_KEY_PAGEUP_2"
+  command_on: ''
+  
+'dish_key_pagedown_2':
+  friendly_name: "Dish_KEY_PAGEDOWN_2"
+  command_on: ''
+  
+'dish_key_info_4':
+  friendly_name: "Dish_KEY_INFO_4"
+  command_on: ''
+  
+'dish_key_power_4':
+  friendly_name: "Dish_KEY_POWER_4"
+  command_on: ''
+  
+'dish_key_power2_4':
+  friendly_name: "Dish_KEY_POWER2_4"
+  command_on: ''
+  
+'dish_key_1_4':
+  friendly_name: "Dish_KEY_1_4"
+  command_on: ''
+  
+'dish_key_2_4':
+  friendly_name: "Dish_KEY_2_4"
+  command_on: ''
+  
+'dish_key_3_4':
+  friendly_name: "Dish_KEY_3_4"
+  command_on: ''
+  
+'dish_key_4_4':
+  friendly_name: "Dish_KEY_4_4"
+  command_on: ''
+  
+'dish_key_5_4':
+  friendly_name: "Dish_KEY_5_4"
+  command_on: ''
+  
+'dish_key_6_4':
+  friendly_name: "Dish_KEY_6_4"
+  command_on: ''
+  
+'dish_key_7_4':
+  friendly_name: "Dish_KEY_7_4"
+  command_on: ''
+  
+'dish_key_8_4':
+  friendly_name: "Dish_KEY_8_4"
+  command_on: ''
+  
+'dish_key_9_4':
+  friendly_name: "Dish_KEY_9_4"
+  command_on: ''
+  
+'dish_key_0_4':
+  friendly_name: "Dish_KEY_0_4"
+  command_on: ''
+  
+'dish_key_menu_4':
+  friendly_name: "Dish_KEY_MENU_4"
+  command_on: ''
+  
+'dish_key_select_4':
+  friendly_name: "Dish_KEY_SELECT_4"
+  command_on: ''
+  
+'dish_key_cancel_4':
+  friendly_name: "Dish_KEY_CANCEL_4"
+  command_on: ''
+  
+'dish_key_epg_4':
+  friendly_name: "Dish_KEY_EPG_4"
+  command_on: ''
+  
+'dish_view_4':
+  friendly_name: "Dish_view_4"
+  command_on: ''
+  
+'dish_tv_vcr_4':
+  friendly_name: "Dish_tv_vcr_4"
+  command_on: ''
+  
+'dish_key_right_4':
+  friendly_name: "Dish_KEY_RIGHT_4"
+  command_on: ''
+  
+'dish_key_up_4':
+  friendly_name: "Dish_KEY_UP_4"
+  command_on: ''
+  
+'dish_key_again_4':
+  friendly_name: "Dish_KEY_AGAIN_4"
+  command_on: ''
+  
+'dish_key_left_4':
+  friendly_name: "Dish_KEY_LEFT_4"
+  command_on: ''
+  
+'dish_key_down_4':
+  friendly_name: "Dish_KEY_DOWN_4"
+  command_on: ''
+  
+'dish_key_record_4':
+  friendly_name: "Dish_KEY_RECORD_4"
+  command_on: ''
+  
+'dish_key_pause_4':
+  friendly_name: "Dish_KEY_PAUSE_4"
+  command_on: ''
+  
+'dish_key_stop_4':
+  friendly_name: "Dish_KEY_STOP_4"
+  command_on: ''
+  
+'dish_sys_info_4':
+  friendly_name: "Dish_sys_info_4"
+  command_on: ''
+  
+'dish_key_kpasterisk_4':
+  friendly_name: "Dish_KEY_KPASTERISK_4"
+  command_on: ''
+  
+'dish_pound_4':
+  friendly_name: "Dish_pound_4"
+  command_on: ''
+  
+'dish_power_off_4':
+  friendly_name: "Dish_power_off_4"
+  command_on: ''
+  
+'dish_key_sat_4':
+  friendly_name: "Dish_KEY_SAT_4"
+  command_on: ''
+  
+'dish_#_5':
+  friendly_name: "Dish_#_5"
+  command_on: ''
+  
+'dish_#_6':
+  friendly_name: "Dish_#_6"
+  command_on: ''
+  
+'dish_dish_home2_4':
+  friendly_name: "Dish_dish_home2_4"
+  command_on: ''
+  
+'dish_dvr_3':
+  friendly_name: "Dish_dvr_3"
+  command_on: ''
+  
+'dish_skip_fwd_3':
+  friendly_name: "Dish_skip_fwd_3"
+  command_on: ''
+  
+'dish_skip_back_3':
+  friendly_name: "Dish_skip_back_3"
+  command_on: ''
+  
+'dish_key_forward_3':
+  friendly_name: "Dish_KEY_FORWARD_3"
+  command_on: ''
+  
+'dish_key_play_3':
+  friendly_name: "Dish_KEY_PLAY_3"
+  command_on: ''
+  
+'dish_key_back_3':
+  friendly_name: "Dish_KEY_BACK_3"
+  command_on: ''
+  
+'dish_dish_3':
+  friendly_name: "Dish_dish_3"
+  command_on: ''
+  
+'dish_key_pageup_3':
+  friendly_name: "Dish_KEY_PAGEUP_3"
+  command_on: ''
+  
+'dish_key_pagedown_3':
+  friendly_name: "Dish_KEY_PAGEDOWN_3"
+  command_on: ''
+  
+'dish_key_info_5':
+  friendly_name: "Dish_KEY_INFO_5"
+  command_on: ''
+  
+'dish_key_power_5':
+  friendly_name: "Dish_KEY_POWER_5"
+  command_on: ''
+  
+'dish_key_power2_5':
+  friendly_name: "Dish_KEY_POWER2_5"
+  command_on: ''
+  
+'dish_key_1_5':
+  friendly_name: "Dish_KEY_1_5"
+  command_on: ''
+  
+'dish_key_2_5':
+  friendly_name: "Dish_KEY_2_5"
+  command_on: ''
+  
+'dish_key_3_5':
+  friendly_name: "Dish_KEY_3_5"
+  command_on: ''
+  
+'dish_key_4_5':
+  friendly_name: "Dish_KEY_4_5"
+  command_on: ''
+  
+'dish_key_5_5':
+  friendly_name: "Dish_KEY_5_5"
+  command_on: ''
+  
+'dish_key_6_5':
+  friendly_name: "Dish_KEY_6_5"
+  command_on: ''
+  
+'dish_key_7_5':
+  friendly_name: "Dish_KEY_7_5"
+  command_on: ''
+  
+'dish_key_8_5':
+  friendly_name: "Dish_KEY_8_5"
+  command_on: ''
+  
+'dish_key_9_5':
+  friendly_name: "Dish_KEY_9_5"
+  command_on: ''
+  
+'dish_key_0_5':
+  friendly_name: "Dish_KEY_0_5"
+  command_on: ''
+  
+'dish_key_menu_5':
+  friendly_name: "Dish_KEY_MENU_5"
+  command_on: ''
+  
+'dish_key_select_5':
+  friendly_name: "Dish_KEY_SELECT_5"
+  command_on: ''
+  
+'dish_key_cancel_5':
+  friendly_name: "Dish_KEY_CANCEL_5"
+  command_on: ''
+  
+'dish_key_epg_5':
+  friendly_name: "Dish_KEY_EPG_5"
+  command_on: ''
+  
+'dish_view_5':
+  friendly_name: "Dish_view_5"
+  command_on: ''
+  
+'dish_tv_vcr_5':
+  friendly_name: "Dish_tv_vcr_5"
+  command_on: ''
+  
+'dish_key_right_5':
+  friendly_name: "Dish_KEY_RIGHT_5"
+  command_on: ''
+  
+'dish_key_up_5':
+  friendly_name: "Dish_KEY_UP_5"
+  command_on: ''
+  
+'dish_key_again_5':
+  friendly_name: "Dish_KEY_AGAIN_5"
+  command_on: ''
+  
+'dish_key_left_5':
+  friendly_name: "Dish_KEY_LEFT_5"
+  command_on: ''
+  
+'dish_key_down_5':
+  friendly_name: "Dish_KEY_DOWN_5"
+  command_on: ''
+  
+'dish_key_record_5':
+  friendly_name: "Dish_KEY_RECORD_5"
+  command_on: ''
+  
+'dish_key_pause_5':
+  friendly_name: "Dish_KEY_PAUSE_5"
+  command_on: ''
+  
+'dish_key_stop_5':
+  friendly_name: "Dish_KEY_STOP_5"
+  command_on: ''
+  
+'dish_sys_info_5':
+  friendly_name: "Dish_sys_info_5"
+  command_on: ''
+  
+'dish_key_kpasterisk_5':
+  friendly_name: "Dish_KEY_KPASTERISK_5"
+  command_on: ''
+  
+'dish_pound_5':
+  friendly_name: "Dish_pound_5"
+  command_on: ''
+  
+'dish_power_off_5':
+  friendly_name: "Dish_power_off_5"
+  command_on: ''
+  
+'dish_key_sat_5':
+  friendly_name: "Dish_KEY_SAT_5"
+  command_on: ''
+  
+'dish_#_7':
+  friendly_name: "Dish_#_7"
+  command_on: ''
+  
+'dish_#_8':
+  friendly_name: "Dish_#_8"
+  command_on: ''
+  
+'dish_dish_home2_5':
+  friendly_name: "Dish_dish_home2_5"
+  command_on: ''
+  
+'dish_dvr_4':
+  friendly_name: "Dish_dvr_4"
+  command_on: ''
+  
+'dish_skip_fwd_4':
+  friendly_name: "Dish_skip_fwd_4"
+  command_on: ''
+  
+'dish_skip_back_4':
+  friendly_name: "Dish_skip_back_4"
+  command_on: ''
+  
+'dish_key_forward_4':
+  friendly_name: "Dish_KEY_FORWARD_4"
+  command_on: ''
+  
+'dish_key_play_4':
+  friendly_name: "Dish_KEY_PLAY_4"
+  command_on: ''
+  
+'dish_key_back_4':
+  friendly_name: "Dish_KEY_BACK_4"
+  command_on: ''
+  
+'dish_dish_4':
+  friendly_name: "Dish_dish_4"
+  command_on: ''
+  
+'dish_key_pageup_4':
+  friendly_name: "Dish_KEY_PAGEUP_4"
+  command_on: ''
+  
+'dish_key_pagedown_4':
+  friendly_name: "Dish_KEY_PAGEDOWN_4"
+  command_on: ''
+  
+'dish_key_info_6':
+  friendly_name: "Dish_KEY_INFO_6"
+  command_on: ''
+  
+'dish_key_power_6':
+  friendly_name: "Dish_KEY_POWER_6"
+  command_on: ''
+  
+'dish_key_power2_6':
+  friendly_name: "Dish_KEY_POWER2_6"
+  command_on: ''
+  
+'dish_key_1_6':
+  friendly_name: "Dish_KEY_1_6"
+  command_on: ''
+  
+'dish_key_2_6':
+  friendly_name: "Dish_KEY_2_6"
+  command_on: ''
+  
+'dish_key_3_6':
+  friendly_name: "Dish_KEY_3_6"
+  command_on: ''
+  
+'dish_key_4_6':
+  friendly_name: "Dish_KEY_4_6"
+  command_on: ''
+  
+'dish_key_5_6':
+  friendly_name: "Dish_KEY_5_6"
+  command_on: ''
+  
+'dish_key_6_6':
+  friendly_name: "Dish_KEY_6_6"
+  command_on: ''
+  
+'dish_key_7_6':
+  friendly_name: "Dish_KEY_7_6"
+  command_on: ''
+  
+'dish_key_8_6':
+  friendly_name: "Dish_KEY_8_6"
+  command_on: ''
+  
+'dish_key_9_6':
+  friendly_name: "Dish_KEY_9_6"
+  command_on: ''
+  
+'dish_key_0_6':
+  friendly_name: "Dish_KEY_0_6"
+  command_on: ''
+  
+'dish_key_menu_6':
+  friendly_name: "Dish_KEY_MENU_6"
+  command_on: ''
+  
+'dish_key_select_6':
+  friendly_name: "Dish_KEY_SELECT_6"
+  command_on: ''
+  
+'dish_key_cancel_6':
+  friendly_name: "Dish_KEY_CANCEL_6"
+  command_on: ''
+  
+'dish_key_epg_6':
+  friendly_name: "Dish_KEY_EPG_6"
+  command_on: ''
+  
+'dish_view_6':
+  friendly_name: "Dish_view_6"
+  command_on: ''
+  
+'dish_tv_vcr_6':
+  friendly_name: "Dish_tv_vcr_6"
+  command_on: ''
+  
+'dish_key_right_6':
+  friendly_name: "Dish_KEY_RIGHT_6"
+  command_on: ''
+  
+'dish_key_up_6':
+  friendly_name: "Dish_KEY_UP_6"
+  command_on: ''
+  
+'dish_key_again_6':
+  friendly_name: "Dish_KEY_AGAIN_6"
+  command_on: ''
+  
+'dish_key_left_6':
+  friendly_name: "Dish_KEY_LEFT_6"
+  command_on: ''
+  
+'dish_key_down_6':
+  friendly_name: "Dish_KEY_DOWN_6"
+  command_on: ''
+  
+'dish_key_record_6':
+  friendly_name: "Dish_KEY_RECORD_6"
+  command_on: ''
+  
+'dish_key_pause_6':
+  friendly_name: "Dish_KEY_PAUSE_6"
+  command_on: ''
+  
+'dish_key_stop_6':
+  friendly_name: "Dish_KEY_STOP_6"
+  command_on: ''
+  
+'dish_sys_info_6':
+  friendly_name: "Dish_sys_info_6"
+  command_on: ''
+  
+'dish_key_kpasterisk_6':
+  friendly_name: "Dish_KEY_KPASTERISK_6"
+  command_on: ''
+  
+'dish_pound_6':
+  friendly_name: "Dish_pound_6"
+  command_on: ''
+  
+'dish_power_off_6':
+  friendly_name: "Dish_power_off_6"
+  command_on: ''
+  
+'dish_key_sat_6':
+  friendly_name: "Dish_KEY_SAT_6"
+  command_on: ''
+  
+'dish_#_9':
+  friendly_name: "Dish_#_9"
+  command_on: ''
+  
+'dish_#_10':
+  friendly_name: "Dish_#_10"
+  command_on: ''
+  
+'dish_dish_home2_6':
+  friendly_name: "Dish_dish_home2_6"
+  command_on: ''
+  
+'dish_dvr_5':
+  friendly_name: "Dish_dvr_5"
+  command_on: ''
+  
+'dish_skip_fwd_5':
+  friendly_name: "Dish_skip_fwd_5"
+  command_on: ''
+  
+'dish_skip_back_5':
+  friendly_name: "Dish_skip_back_5"
+  command_on: ''
+  
+'dish_key_forward_5':
+  friendly_name: "Dish_KEY_FORWARD_5"
+  command_on: ''
+  
+'dish_key_play_5':
+  friendly_name: "Dish_KEY_PLAY_5"
+  command_on: ''
+  
+'dish_key_back_5':
+  friendly_name: "Dish_KEY_BACK_5"
+  command_on: ''
+  
+'dish_dish_5':
+  friendly_name: "Dish_dish_5"
+  command_on: ''
+  
+'dish_key_pageup_5':
+  friendly_name: "Dish_KEY_PAGEUP_5"
+  command_on: ''
+  
+'dish_key_pagedown_5':
+  friendly_name: "Dish_KEY_PAGEDOWN_5"
+  command_on: ''
+  
+'dish_key_info_7':
+  friendly_name: "Dish_KEY_INFO_7"
+  command_on: ''
+  
+'dish_key_power_7':
+  friendly_name: "Dish_KEY_POWER_7"
+  command_on: ''
+  
+'dish_key_power2_7':
+  friendly_name: "Dish_KEY_POWER2_7"
+  command_on: ''
+  
+'dish_key_1_7':
+  friendly_name: "Dish_KEY_1_7"
+  command_on: ''
+  
+'dish_key_2_7':
+  friendly_name: "Dish_KEY_2_7"
+  command_on: ''
+  
+'dish_key_3_7':
+  friendly_name: "Dish_KEY_3_7"
+  command_on: ''
+  
+'dish_key_4_7':
+  friendly_name: "Dish_KEY_4_7"
+  command_on: ''
+  
+'dish_key_5_7':
+  friendly_name: "Dish_KEY_5_7"
+  command_on: ''
+  
+'dish_key_6_7':
+  friendly_name: "Dish_KEY_6_7"
+  command_on: ''
+  
+'dish_key_7_7':
+  friendly_name: "Dish_KEY_7_7"
+  command_on: ''
+  
+'dish_key_8_7':
+  friendly_name: "Dish_KEY_8_7"
+  command_on: ''
+  
+'dish_key_9_7':
+  friendly_name: "Dish_KEY_9_7"
+  command_on: ''
+  
+'dish_key_0_7':
+  friendly_name: "Dish_KEY_0_7"
+  command_on: ''
+  
+'dish_key_menu_7':
+  friendly_name: "Dish_KEY_MENU_7"
+  command_on: ''
+  
+'dish_key_select_7':
+  friendly_name: "Dish_KEY_SELECT_7"
+  command_on: ''
+  
+'dish_key_cancel_7':
+  friendly_name: "Dish_KEY_CANCEL_7"
+  command_on: ''
+  
+'dish_key_epg_7':
+  friendly_name: "Dish_KEY_EPG_7"
+  command_on: ''
+  
+'dish_view_7':
+  friendly_name: "Dish_view_7"
+  command_on: ''
+  
+'dish_tv_vcr_7':
+  friendly_name: "Dish_tv_vcr_7"
+  command_on: ''
+  
+'dish_key_right_7':
+  friendly_name: "Dish_KEY_RIGHT_7"
+  command_on: ''
+  
+'dish_key_up_7':
+  friendly_name: "Dish_KEY_UP_7"
+  command_on: ''
+  
+'dish_key_again_7':
+  friendly_name: "Dish_KEY_AGAIN_7"
+  command_on: ''
+  
+'dish_key_left_7':
+  friendly_name: "Dish_KEY_LEFT_7"
+  command_on: ''
+  
+'dish_key_down_7':
+  friendly_name: "Dish_KEY_DOWN_7"
+  command_on: ''
+  
+'dish_key_record_7':
+  friendly_name: "Dish_KEY_RECORD_7"
+  command_on: ''
+  
+'dish_key_pause_7':
+  friendly_name: "Dish_KEY_PAUSE_7"
+  command_on: ''
+  
+'dish_key_stop_7':
+  friendly_name: "Dish_KEY_STOP_7"
+  command_on: ''
+  
+'dish_sys_info_7':
+  friendly_name: "Dish_sys_info_7"
+  command_on: ''
+  
+'dish_key_kpasterisk_7':
+  friendly_name: "Dish_KEY_KPASTERISK_7"
+  command_on: ''
+  
+'dish_pound_7':
+  friendly_name: "Dish_pound_7"
+  command_on: ''
+  
+'dish_power_off_7':
+  friendly_name: "Dish_power_off_7"
+  command_on: ''
+  
+'dish_key_sat_7':
+  friendly_name: "Dish_KEY_SAT_7"
+  command_on: ''
+  
+'dish_#_11':
+  friendly_name: "Dish_#_11"
+  command_on: ''
+  
+'dish_#_12':
+  friendly_name: "Dish_#_12"
+  command_on: ''
+  
+'dish_dish_home2_7':
+  friendly_name: "Dish_dish_home2_7"
+  command_on: ''
+  
+'dish_dvr_6':
+  friendly_name: "Dish_dvr_6"
+  command_on: ''
+  
+'dish_skip_fwd_6':
+  friendly_name: "Dish_skip_fwd_6"
+  command_on: ''
+  
+'dish_skip_back_6':
+  friendly_name: "Dish_skip_back_6"
+  command_on: ''
+  
+'dish_key_forward_6':
+  friendly_name: "Dish_KEY_FORWARD_6"
+  command_on: ''
+  
+'dish_key_play_6':
+  friendly_name: "Dish_KEY_PLAY_6"
+  command_on: ''
+  
+'dish_key_back_6':
+  friendly_name: "Dish_KEY_BACK_6"
+  command_on: ''
+  
+'dish_dish_6':
+  friendly_name: "Dish_dish_6"
+  command_on: ''
+  
+'dish_key_pageup_6':
+  friendly_name: "Dish_KEY_PAGEUP_6"
+  command_on: ''
+  
+'dish_key_pagedown_6':
+  friendly_name: "Dish_KEY_PAGEDOWN_6"
+  command_on: ''
+  
+'dish_key_info_8':
+  friendly_name: "Dish_KEY_INFO_8"
+  command_on: ''
+  
+'dish_key_power_8':
+  friendly_name: "Dish_KEY_POWER_8"
+  command_on: ''
+  
+'dish_key_power2_8':
+  friendly_name: "Dish_KEY_POWER2_8"
+  command_on: ''
+  
+'dish_key_1_8':
+  friendly_name: "Dish_KEY_1_8"
+  command_on: ''
+  
+'dish_key_2_8':
+  friendly_name: "Dish_KEY_2_8"
+  command_on: ''
+  
+'dish_key_3_8':
+  friendly_name: "Dish_KEY_3_8"
+  command_on: ''
+  
+'dish_key_4_8':
+  friendly_name: "Dish_KEY_4_8"
+  command_on: ''
+  
+'dish_key_5_8':
+  friendly_name: "Dish_KEY_5_8"
+  command_on: ''
+  
+'dish_key_6_8':
+  friendly_name: "Dish_KEY_6_8"
+  command_on: ''
+  
+'dish_key_7_8':
+  friendly_name: "Dish_KEY_7_8"
+  command_on: ''
+  
+'dish_key_8_8':
+  friendly_name: "Dish_KEY_8_8"
+  command_on: ''
+  
+'dish_key_9_8':
+  friendly_name: "Dish_KEY_9_8"
+  command_on: ''
+  
+'dish_key_0_8':
+  friendly_name: "Dish_KEY_0_8"
+  command_on: ''
+  
+'dish_key_menu_8':
+  friendly_name: "Dish_KEY_MENU_8"
+  command_on: ''
+  
+'dish_key_select_8':
+  friendly_name: "Dish_KEY_SELECT_8"
+  command_on: ''
+  
+'dish_key_cancel_8':
+  friendly_name: "Dish_KEY_CANCEL_8"
+  command_on: ''
+  
+'dish_key_epg_8':
+  friendly_name: "Dish_KEY_EPG_8"
+  command_on: ''
+  
+'dish_view_8':
+  friendly_name: "Dish_view_8"
+  command_on: ''
+  
+'dish_tv_vcr_8':
+  friendly_name: "Dish_tv_vcr_8"
+  command_on: ''
+  
+'dish_key_right_8':
+  friendly_name: "Dish_KEY_RIGHT_8"
+  command_on: ''
+  
+'dish_key_up_8':
+  friendly_name: "Dish_KEY_UP_8"
+  command_on: ''
+  
+'dish_key_again_8':
+  friendly_name: "Dish_KEY_AGAIN_8"
+  command_on: ''
+  
+'dish_key_left_8':
+  friendly_name: "Dish_KEY_LEFT_8"
+  command_on: ''
+  
+'dish_key_down_8':
+  friendly_name: "Dish_KEY_DOWN_8"
+  command_on: ''
+  
+'dish_key_record_8':
+  friendly_name: "Dish_KEY_RECORD_8"
+  command_on: ''
+  
+'dish_key_pause_8':
+  friendly_name: "Dish_KEY_PAUSE_8"
+  command_on: ''
+  
+'dish_key_stop_8':
+  friendly_name: "Dish_KEY_STOP_8"
+  command_on: ''
+  
+'dish_sys_info_8':
+  friendly_name: "Dish_sys_info_8"
+  command_on: ''
+  
+'dish_key_kpasterisk_8':
+  friendly_name: "Dish_KEY_KPASTERISK_8"
+  command_on: ''
+  
+'dish_pound_8':
+  friendly_name: "Dish_pound_8"
+  command_on: ''
+  
+'dish_power_off_8':
+  friendly_name: "Dish_power_off_8"
+  command_on: ''
+  
+'dish_key_sat_8':
+  friendly_name: "Dish_KEY_SAT_8"
+  command_on: ''
+  
+'dish_#_13':
+  friendly_name: "Dish_#_13"
+  command_on: ''
+  
+'dish_#_14':
+  friendly_name: "Dish_#_14"
+  command_on: ''
+  
+'dish_dish_home2_8':
+  friendly_name: "Dish_dish_home2_8"
+  command_on: ''
+  
+'dish_dvr_7':
+  friendly_name: "Dish_dvr_7"
+  command_on: ''
+  
+'dish_skip_fwd_7':
+  friendly_name: "Dish_skip_fwd_7"
+  command_on: ''
+  
+'dish_skip_back_7':
+  friendly_name: "Dish_skip_back_7"
+  command_on: ''
+  
+'dish_key_forward_7':
+  friendly_name: "Dish_KEY_FORWARD_7"
+  command_on: ''
+  
+'dish_key_play_7':
+  friendly_name: "Dish_KEY_PLAY_7"
+  command_on: ''
+  
+'dish_key_back_7':
+  friendly_name: "Dish_KEY_BACK_7"
+  command_on: ''
+  
+'dish_dish_7':
+  friendly_name: "Dish_dish_7"
+  command_on: ''
+  
+'dish_key_pageup_7':
+  friendly_name: "Dish_KEY_PAGEUP_7"
+  command_on: ''
+  
+'dish_key_pagedown_7':
+  friendly_name: "Dish_KEY_PAGEDOWN_7"
+  command_on: ''
+  
+'dish_key_info_9':
+  friendly_name: "Dish_KEY_INFO_9"
+  command_on: ''
+  
+'dish_key_power_9':
+  friendly_name: "Dish_KEY_POWER_9"
+  command_on: ''
+  
+'dish_key_power2_9':
+  friendly_name: "Dish_KEY_POWER2_9"
+  command_on: ''
+  
+'dish_key_1_9':
+  friendly_name: "Dish_KEY_1_9"
+  command_on: ''
+  
+'dish_key_2_9':
+  friendly_name: "Dish_KEY_2_9"
+  command_on: ''
+  
+'dish_key_3_9':
+  friendly_name: "Dish_KEY_3_9"
+  command_on: ''
+  
+'dish_key_4_9':
+  friendly_name: "Dish_KEY_4_9"
+  command_on: ''
+  
+'dish_key_5_9':
+  friendly_name: "Dish_KEY_5_9"
+  command_on: ''
+  
+'dish_key_6_9':
+  friendly_name: "Dish_KEY_6_9"
+  command_on: ''
+  
+'dish_key_7_9':
+  friendly_name: "Dish_KEY_7_9"
+  command_on: ''
+  
+'dish_key_8_9':
+  friendly_name: "Dish_KEY_8_9"
+  command_on: ''
+  
+'dish_key_9_9':
+  friendly_name: "Dish_KEY_9_9"
+  command_on: ''
+  
+'dish_key_0_9':
+  friendly_name: "Dish_KEY_0_9"
+  command_on: ''
+  
+'dish_key_menu_9':
+  friendly_name: "Dish_KEY_MENU_9"
+  command_on: ''
+  
+'dish_key_select_9':
+  friendly_name: "Dish_KEY_SELECT_9"
+  command_on: ''
+  
+'dish_key_cancel_9':
+  friendly_name: "Dish_KEY_CANCEL_9"
+  command_on: ''
+  
+'dish_key_epg_9':
+  friendly_name: "Dish_KEY_EPG_9"
+  command_on: ''
+  
+'dish_view_9':
+  friendly_name: "Dish_view_9"
+  command_on: ''
+  
+'dish_tv_vcr_9':
+  friendly_name: "Dish_tv_vcr_9"
+  command_on: ''
+  
+'dish_key_right_9':
+  friendly_name: "Dish_KEY_RIGHT_9"
+  command_on: ''
+  
+'dish_key_up_9':
+  friendly_name: "Dish_KEY_UP_9"
+  command_on: ''
+  
+'dish_key_again_9':
+  friendly_name: "Dish_KEY_AGAIN_9"
+  command_on: ''
+  
+'dish_key_left_9':
+  friendly_name: "Dish_KEY_LEFT_9"
+  command_on: ''
+  
+'dish_key_down_9':
+  friendly_name: "Dish_KEY_DOWN_9"
+  command_on: ''
+  
+'dish_key_record_9':
+  friendly_name: "Dish_KEY_RECORD_9"
+  command_on: ''
+  
+'dish_key_pause_9':
+  friendly_name: "Dish_KEY_PAUSE_9"
+  command_on: ''
+  
+'dish_key_stop_9':
+  friendly_name: "Dish_KEY_STOP_9"
+  command_on: ''
+  
+'dish_sys_info_9':
+  friendly_name: "Dish_sys_info_9"
+  command_on: ''
+  
+'dish_key_kpasterisk_9':
+  friendly_name: "Dish_KEY_KPASTERISK_9"
+  command_on: ''
+  
+'dish_pound_9':
+  friendly_name: "Dish_pound_9"
+  command_on: ''
+  
+'dish_power_off_9':
+  friendly_name: "Dish_power_off_9"
+  command_on: ''
+  
+'dish_key_sat_9':
+  friendly_name: "Dish_KEY_SAT_9"
+  command_on: ''
+  
+'dish_#_15':
+  friendly_name: "Dish_#_15"
+  command_on: ''
+  
+'dish_#_16':
+  friendly_name: "Dish_#_16"
+  command_on: ''
+  
+'dish_dish_home2_9':
+  friendly_name: "Dish_dish_home2_9"
+  command_on: ''
+  
+'dish_dvr_8':
+  friendly_name: "Dish_dvr_8"
+  command_on: ''
+  
+'dish_skip_fwd_8':
+  friendly_name: "Dish_skip_fwd_8"
+  command_on: ''
+  
+'dish_skip_back_8':
+  friendly_name: "Dish_skip_back_8"
+  command_on: ''
+  
+'dish_key_forward_8':
+  friendly_name: "Dish_KEY_FORWARD_8"
+  command_on: ''
+  
+'dish_key_play_8':
+  friendly_name: "Dish_KEY_PLAY_8"
+  command_on: ''
+  
+'dish_key_back_8':
+  friendly_name: "Dish_KEY_BACK_8"
+  command_on: ''
+  
+'dish_dish_8':
+  friendly_name: "Dish_dish_8"
+  command_on: ''
+  
+'dish_key_pageup_8':
+  friendly_name: "Dish_KEY_PAGEUP_8"
+  command_on: ''
+  
+'dish_key_pagedown_8':
+  friendly_name: "Dish_KEY_PAGEDOWN_8"
+  command_on: ''
+  
+'dish_key_info_10':
+  friendly_name: "Dish_KEY_INFO_10"
+  command_on: ''
+  
+'dish_key_power_10':
+  friendly_name: "Dish_KEY_POWER_10"
+  command_on: ''
+  
+'dish_key_power2_10':
+  friendly_name: "Dish_KEY_POWER2_10"
+  command_on: ''
+  
+'dish_key_1_10':
+  friendly_name: "Dish_KEY_1_10"
+  command_on: ''
+  
+'dish_key_2_10':
+  friendly_name: "Dish_KEY_2_10"
+  command_on: ''
+  
+'dish_key_3_10':
+  friendly_name: "Dish_KEY_3_10"
+  command_on: ''
+  
+'dish_key_4_10':
+  friendly_name: "Dish_KEY_4_10"
+  command_on: ''
+  
+'dish_key_5_10':
+  friendly_name: "Dish_KEY_5_10"
+  command_on: ''
+  
+'dish_key_6_10':
+  friendly_name: "Dish_KEY_6_10"
+  command_on: ''
+  
+'dish_key_7_10':
+  friendly_name: "Dish_KEY_7_10"
+  command_on: ''
+  
+'dish_key_8_10':
+  friendly_name: "Dish_KEY_8_10"
+  command_on: ''
+  
+'dish_key_9_10':
+  friendly_name: "Dish_KEY_9_10"
+  command_on: ''
+  
+'dish_key_0_10':
+  friendly_name: "Dish_KEY_0_10"
+  command_on: ''
+  
+'dish_key_menu_10':
+  friendly_name: "Dish_KEY_MENU_10"
+  command_on: ''
+  
+'dish_key_select_10':
+  friendly_name: "Dish_KEY_SELECT_10"
+  command_on: ''
+  
+'dish_key_cancel_10':
+  friendly_name: "Dish_KEY_CANCEL_10"
+  command_on: ''
+  
+'dish_key_epg_10':
+  friendly_name: "Dish_KEY_EPG_10"
+  command_on: ''
+  
+'dish_view_10':
+  friendly_name: "Dish_view_10"
+  command_on: ''
+  
+'dish_tv_vcr_10':
+  friendly_name: "Dish_tv_vcr_10"
+  command_on: ''
+  
+'dish_key_right_10':
+  friendly_name: "Dish_KEY_RIGHT_10"
+  command_on: ''
+  
+'dish_key_up_10':
+  friendly_name: "Dish_KEY_UP_10"
+  command_on: ''
+  
+'dish_key_again_10':
+  friendly_name: "Dish_KEY_AGAIN_10"
+  command_on: ''
+  
+'dish_key_left_10':
+  friendly_name: "Dish_KEY_LEFT_10"
+  command_on: ''
+  
+'dish_key_down_10':
+  friendly_name: "Dish_KEY_DOWN_10"
+  command_on: ''
+  
+'dish_key_record_10':
+  friendly_name: "Dish_KEY_RECORD_10"
+  command_on: ''
+  
+'dish_key_pause_10':
+  friendly_name: "Dish_KEY_PAUSE_10"
+  command_on: ''
+  
+'dish_key_stop_10':
+  friendly_name: "Dish_KEY_STOP_10"
+  command_on: ''
+  
+'dish_sys_info_10':
+  friendly_name: "Dish_sys_info_10"
+  command_on: ''
+  
+'dish_key_kpasterisk_10':
+  friendly_name: "Dish_KEY_KPASTERISK_10"
+  command_on: ''
+  
+'dish_pound_10':
+  friendly_name: "Dish_pound_10"
+  command_on: ''
+  
+'dish_power_off_10':
+  friendly_name: "Dish_power_off_10"
+  command_on: ''
+  
+'dish_key_sat_10':
+  friendly_name: "Dish_KEY_SAT_10"
+  command_on: ''
+  
+'dish_#_17':
+  friendly_name: "Dish_#_17"
+  command_on: ''
+  
+'dish_#_18':
+  friendly_name: "Dish_#_18"
+  command_on: ''
+  
+'dish_dish_home2_10':
+  friendly_name: "Dish_dish_home2_10"
+  command_on: ''
+  
+'dish_dvr_9':
+  friendly_name: "Dish_dvr_9"
+  command_on: ''
+  
+'dish_skip_fwd_9':
+  friendly_name: "Dish_skip_fwd_9"
+  command_on: ''
+  
+'dish_skip_back_9':
+  friendly_name: "Dish_skip_back_9"
+  command_on: ''
+  
+'dish_key_forward_9':
+  friendly_name: "Dish_KEY_FORWARD_9"
+  command_on: ''
+  
+'dish_key_play_9':
+  friendly_name: "Dish_KEY_PLAY_9"
+  command_on: ''
+  
+'dish_key_back_9':
+  friendly_name: "Dish_KEY_BACK_9"
+  command_on: ''
+  
+'dish_dish_9':
+  friendly_name: "Dish_dish_9"
+  command_on: ''
+  
+'dish_key_pageup_9':
+  friendly_name: "Dish_KEY_PAGEUP_9"
+  command_on: ''
+  
+'dish_key_pagedown_9':
+  friendly_name: "Dish_KEY_PAGEDOWN_9"
+  command_on: ''
+  
+'dish_key_info_11':
+  friendly_name: "Dish_KEY_INFO_11"
+  command_on: ''
+  
+'dish_key_power_11':
+  friendly_name: "Dish_KEY_POWER_11"
+  command_on: ''
+  
+'dish_key_power2_11':
+  friendly_name: "Dish_KEY_POWER2_11"
+  command_on: ''
+  
+'dish_key_1_11':
+  friendly_name: "Dish_KEY_1_11"
+  command_on: ''
+  
+'dish_key_2_11':
+  friendly_name: "Dish_KEY_2_11"
+  command_on: ''
+  
+'dish_key_3_11':
+  friendly_name: "Dish_KEY_3_11"
+  command_on: ''
+  
+'dish_key_4_11':
+  friendly_name: "Dish_KEY_4_11"
+  command_on: ''
+  
+'dish_key_5_11':
+  friendly_name: "Dish_KEY_5_11"
+  command_on: ''
+  
+'dish_key_6_11':
+  friendly_name: "Dish_KEY_6_11"
+  command_on: ''
+  
+'dish_key_7_11':
+  friendly_name: "Dish_KEY_7_11"
+  command_on: ''
+  
+'dish_key_8_11':
+  friendly_name: "Dish_KEY_8_11"
+  command_on: ''
+  
+'dish_key_9_11':
+  friendly_name: "Dish_KEY_9_11"
+  command_on: ''
+  
+'dish_key_0_11':
+  friendly_name: "Dish_KEY_0_11"
+  command_on: ''
+  
+'dish_key_menu_11':
+  friendly_name: "Dish_KEY_MENU_11"
+  command_on: ''
+  
+'dish_key_select_11':
+  friendly_name: "Dish_KEY_SELECT_11"
+  command_on: ''
+  
+'dish_key_cancel_11':
+  friendly_name: "Dish_KEY_CANCEL_11"
+  command_on: ''
+  
+'dish_key_epg_11':
+  friendly_name: "Dish_KEY_EPG_11"
+  command_on: ''
+  
+'dish_view_11':
+  friendly_name: "Dish_view_11"
+  command_on: ''
+  
+'dish_tv_vcr_11':
+  friendly_name: "Dish_tv_vcr_11"
+  command_on: ''
+  
+'dish_key_right_11':
+  friendly_name: "Dish_KEY_RIGHT_11"
+  command_on: ''
+  
+'dish_key_up_11':
+  friendly_name: "Dish_KEY_UP_11"
+  command_on: ''
+  
+'dish_key_again_11':
+  friendly_name: "Dish_KEY_AGAIN_11"
+  command_on: ''
+  
+'dish_key_left_11':
+  friendly_name: "Dish_KEY_LEFT_11"
+  command_on: ''
+  
+'dish_key_down_11':
+  friendly_name: "Dish_KEY_DOWN_11"
+  command_on: ''
+  
+'dish_key_record_11':
+  friendly_name: "Dish_KEY_RECORD_11"
+  command_on: ''
+  
+'dish_key_pause_11':
+  friendly_name: "Dish_KEY_PAUSE_11"
+  command_on: ''
+  
+'dish_key_stop_11':
+  friendly_name: "Dish_KEY_STOP_11"
+  command_on: ''
+  
+'dish_sys_info_11':
+  friendly_name: "Dish_sys_info_11"
+  command_on: ''
+  
+'dish_key_kpasterisk_11':
+  friendly_name: "Dish_KEY_KPASTERISK_11"
+  command_on: ''
+  
+'dish_pound_11':
+  friendly_name: "Dish_pound_11"
+  command_on: ''
+  
+'dish_power_off_11':
+  friendly_name: "Dish_power_off_11"
+  command_on: ''
+  
+'dish_key_sat_11':
+  friendly_name: "Dish_KEY_SAT_11"
+  command_on: ''
+  
+'dish_#_19':
+  friendly_name: "Dish_#_19"
+  command_on: ''
+  
+'dish_#_20':
+  friendly_name: "Dish_#_20"
+  command_on: ''
+  
+'dish_dish_home2_11':
+  friendly_name: "Dish_dish_home2_11"
+  command_on: ''
+  
+'dish_dvr_10':
+  friendly_name: "Dish_dvr_10"
+  command_on: ''
+  
+'dish_skip_fwd_10':
+  friendly_name: "Dish_skip_fwd_10"
+  command_on: ''
+  
+'dish_skip_back_10':
+  friendly_name: "Dish_skip_back_10"
+  command_on: ''
+  
+'dish_key_forward_10':
+  friendly_name: "Dish_KEY_FORWARD_10"
+  command_on: ''
+  
+'dish_key_play_10':
+  friendly_name: "Dish_KEY_PLAY_10"
+  command_on: ''
+  
+'dish_key_back_10':
+  friendly_name: "Dish_KEY_BACK_10"
+  command_on: ''
+  
+'dish_dish_10':
+  friendly_name: "Dish_dish_10"
+  command_on: ''
+  
+'dish_key_pageup_10':
+  friendly_name: "Dish_KEY_PAGEUP_10"
+  command_on: ''
+  
+'dish_key_pagedown_10':
+  friendly_name: "Dish_KEY_PAGEDOWN_10"
+  command_on: ''
+  
+'dish_key_info_12':
+  friendly_name: "Dish_KEY_INFO_12"
+  command_on: ''
+  
+'dish_key_power_12':
+  friendly_name: "Dish_KEY_POWER_12"
+  command_on: ''
+  
+'dish_key_power2_12':
+  friendly_name: "Dish_KEY_POWER2_12"
+  command_on: ''
+  
+'dish_key_1_12':
+  friendly_name: "Dish_KEY_1_12"
+  command_on: ''
+  
+'dish_key_2_12':
+  friendly_name: "Dish_KEY_2_12"
+  command_on: ''
+  
+'dish_key_3_12':
+  friendly_name: "Dish_KEY_3_12"
+  command_on: ''
+  
+'dish_key_4_12':
+  friendly_name: "Dish_KEY_4_12"
+  command_on: ''
+  
+'dish_key_5_12':
+  friendly_name: "Dish_KEY_5_12"
+  command_on: ''
+  
+'dish_key_6_12':
+  friendly_name: "Dish_KEY_6_12"
+  command_on: ''
+  
+'dish_key_7_12':
+  friendly_name: "Dish_KEY_7_12"
+  command_on: ''
+  
+'dish_key_8_12':
+  friendly_name: "Dish_KEY_8_12"
+  command_on: ''
+  
+'dish_key_9_12':
+  friendly_name: "Dish_KEY_9_12"
+  command_on: ''
+  
+'dish_key_0_12':
+  friendly_name: "Dish_KEY_0_12"
+  command_on: ''
+  
+'dish_key_menu_12':
+  friendly_name: "Dish_KEY_MENU_12"
+  command_on: ''
+  
+'dish_key_select_12':
+  friendly_name: "Dish_KEY_SELECT_12"
+  command_on: ''
+  
+'dish_key_cancel_12':
+  friendly_name: "Dish_KEY_CANCEL_12"
+  command_on: ''
+  
+'dish_key_epg_12':
+  friendly_name: "Dish_KEY_EPG_12"
+  command_on: ''
+  
+'dish_view_12':
+  friendly_name: "Dish_view_12"
+  command_on: ''
+  
+'dish_tv_vcr_12':
+  friendly_name: "Dish_tv_vcr_12"
+  command_on: ''
+  
+'dish_key_right_12':
+  friendly_name: "Dish_KEY_RIGHT_12"
+  command_on: ''
+  
+'dish_key_up_12':
+  friendly_name: "Dish_KEY_UP_12"
+  command_on: ''
+  
+'dish_key_again_12':
+  friendly_name: "Dish_KEY_AGAIN_12"
+  command_on: ''
+  
+'dish_key_left_12':
+  friendly_name: "Dish_KEY_LEFT_12"
+  command_on: ''
+  
+'dish_key_down_12':
+  friendly_name: "Dish_KEY_DOWN_12"
+  command_on: ''
+  
+'dish_key_record_12':
+  friendly_name: "Dish_KEY_RECORD_12"
+  command_on: ''
+  
+'dish_key_pause_12':
+  friendly_name: "Dish_KEY_PAUSE_12"
+  command_on: ''
+  
+'dish_key_stop_12':
+  friendly_name: "Dish_KEY_STOP_12"
+  command_on: ''
+  
+'dish_sys_info_12':
+  friendly_name: "Dish_sys_info_12"
+  command_on: ''
+  
+'dish_key_kpasterisk_12':
+  friendly_name: "Dish_KEY_KPASTERISK_12"
+  command_on: ''
+  
+'dish_pound_12':
+  friendly_name: "Dish_pound_12"
+  command_on: ''
+  
+'dish_power_off_12':
+  friendly_name: "Dish_power_off_12"
+  command_on: ''
+  
+'dish_key_sat_12':
+  friendly_name: "Dish_KEY_SAT_12"
+  command_on: ''
+  
+'dish_#_21':
+  friendly_name: "Dish_#_21"
+  command_on: ''
+  
+'dish_#_22':
+  friendly_name: "Dish_#_22"
+  command_on: ''
+  
+'dish_dish_home2_12':
+  friendly_name: "Dish_dish_home2_12"
+  command_on: ''
+  
+'dish_dvr_11':
+  friendly_name: "Dish_dvr_11"
+  command_on: ''
+  
+'dish_skip_fwd_11':
+  friendly_name: "Dish_skip_fwd_11"
+  command_on: ''
+  
+'dish_skip_back_11':
+  friendly_name: "Dish_skip_back_11"
+  command_on: ''
+  
+'dish_key_forward_11':
+  friendly_name: "Dish_KEY_FORWARD_11"
+  command_on: ''
+  
+'dish_key_play_11':
+  friendly_name: "Dish_KEY_PLAY_11"
+  command_on: ''
+  
+'dish_key_back_11':
+  friendly_name: "Dish_KEY_BACK_11"
+  command_on: ''
+  
+'dish_dish_11':
+  friendly_name: "Dish_dish_11"
+  command_on: ''
+  
+'dish_key_pageup_11':
+  friendly_name: "Dish_KEY_PAGEUP_11"
+  command_on: ''
+  
+'dish_key_pagedown_11':
+  friendly_name: "Dish_KEY_PAGEDOWN_11"
+  command_on: ''
+  
+'dish_key_info_13':
+  friendly_name: "Dish_KEY_INFO_13"
+  command_on: ''
+  
+'dish_key_power_13':
+  friendly_name: "Dish_KEY_POWER_13"
+  command_on: ''
+  
+'dish_key_power2_13':
+  friendly_name: "Dish_KEY_POWER2_13"
+  command_on: ''
+  
+'dish_key_1_13':
+  friendly_name: "Dish_KEY_1_13"
+  command_on: ''
+  
+'dish_key_2_13':
+  friendly_name: "Dish_KEY_2_13"
+  command_on: ''
+  
+'dish_key_3_13':
+  friendly_name: "Dish_KEY_3_13"
+  command_on: ''
+  
+'dish_key_4_13':
+  friendly_name: "Dish_KEY_4_13"
+  command_on: ''
+  
+'dish_key_5_13':
+  friendly_name: "Dish_KEY_5_13"
+  command_on: ''
+  
+'dish_key_6_13':
+  friendly_name: "Dish_KEY_6_13"
+  command_on: ''
+  
+'dish_key_7_13':
+  friendly_name: "Dish_KEY_7_13"
+  command_on: ''
+  
+'dish_key_8_13':
+  friendly_name: "Dish_KEY_8_13"
+  command_on: ''
+  
+'dish_key_9_13':
+  friendly_name: "Dish_KEY_9_13"
+  command_on: ''
+  
+'dish_key_0_13':
+  friendly_name: "Dish_KEY_0_13"
+  command_on: ''
+  
+'dish_key_menu_13':
+  friendly_name: "Dish_KEY_MENU_13"
+  command_on: ''
+  
+'dish_key_select_13':
+  friendly_name: "Dish_KEY_SELECT_13"
+  command_on: ''
+  
+'dish_key_cancel_13':
+  friendly_name: "Dish_KEY_CANCEL_13"
+  command_on: ''
+  
+'dish_key_epg_13':
+  friendly_name: "Dish_KEY_EPG_13"
+  command_on: ''
+  
+'dish_view_13':
+  friendly_name: "Dish_view_13"
+  command_on: ''
+  
+'dish_tv_vcr_13':
+  friendly_name: "Dish_tv_vcr_13"
+  command_on: ''
+  
+'dish_key_right_13':
+  friendly_name: "Dish_KEY_RIGHT_13"
+  command_on: ''
+  
+'dish_key_up_13':
+  friendly_name: "Dish_KEY_UP_13"
+  command_on: ''
+  
+'dish_key_again_13':
+  friendly_name: "Dish_KEY_AGAIN_13"
+  command_on: ''
+  
+'dish_key_left_13':
+  friendly_name: "Dish_KEY_LEFT_13"
+  command_on: ''
+  
+'dish_key_down_13':
+  friendly_name: "Dish_KEY_DOWN_13"
+  command_on: ''
+  
+'dish_key_record_13':
+  friendly_name: "Dish_KEY_RECORD_13"
+  command_on: ''
+  
+'dish_key_pause_13':
+  friendly_name: "Dish_KEY_PAUSE_13"
+  command_on: ''
+  
+'dish_key_stop_13':
+  friendly_name: "Dish_KEY_STOP_13"
+  command_on: ''
+  
+'dish_sys_info_13':
+  friendly_name: "Dish_sys_info_13"
+  command_on: ''
+  
+'dish_key_kpasterisk_13':
+  friendly_name: "Dish_KEY_KPASTERISK_13"
+  command_on: ''
+  
+'dish_pound_13':
+  friendly_name: "Dish_pound_13"
+  command_on: ''
+  
+'dish_power_off_13':
+  friendly_name: "Dish_power_off_13"
+  command_on: ''
+  
+'dish_key_sat_13':
+  friendly_name: "Dish_KEY_SAT_13"
+  command_on: ''
+  
+'dish_#_23':
+  friendly_name: "Dish_#_23"
+  command_on: ''
+  
+'dish_#_24':
+  friendly_name: "Dish_#_24"
+  command_on: ''
+  
+'dish_dish_home2_13':
+  friendly_name: "Dish_dish_home2_13"
+  command_on: ''
+  
+'dish_dvr_12':
+  friendly_name: "Dish_dvr_12"
+  command_on: ''
+  
+'dish_skip_fwd_12':
+  friendly_name: "Dish_skip_fwd_12"
+  command_on: ''
+  
+'dish_skip_back_12':
+  friendly_name: "Dish_skip_back_12"
+  command_on: ''
+  
+'dish_key_forward_12':
+  friendly_name: "Dish_KEY_FORWARD_12"
+  command_on: ''
+  
+'dish_key_play_12':
+  friendly_name: "Dish_KEY_PLAY_12"
+  command_on: ''
+  
+'dish_key_back_12':
+  friendly_name: "Dish_KEY_BACK_12"
+  command_on: ''
+  
+'dish_dish_12':
+  friendly_name: "Dish_dish_12"
+  command_on: ''
+  
+'dish_key_pageup_12':
+  friendly_name: "Dish_KEY_PAGEUP_12"
+  command_on: ''
+  
+'dish_key_pagedown_12':
+  friendly_name: "Dish_KEY_PAGEDOWN_12"
+  command_on: ''
+  
+'dish_key_info_14':
+  friendly_name: "Dish_KEY_INFO_14"
+  command_on: ''
+  
+'dish_key_power_14':
+  friendly_name: "Dish_KEY_POWER_14"
+  command_on: ''
+  
+'dish_key_power2_14':
+  friendly_name: "Dish_KEY_POWER2_14"
+  command_on: ''
+  
+'dish_key_1_14':
+  friendly_name: "Dish_KEY_1_14"
+  command_on: ''
+  
+'dish_key_2_14':
+  friendly_name: "Dish_KEY_2_14"
+  command_on: ''
+  
+'dish_key_3_14':
+  friendly_name: "Dish_KEY_3_14"
+  command_on: ''
+  
+'dish_key_4_14':
+  friendly_name: "Dish_KEY_4_14"
+  command_on: ''
+  
+'dish_key_5_14':
+  friendly_name: "Dish_KEY_5_14"
+  command_on: ''
+  
+'dish_key_6_14':
+  friendly_name: "Dish_KEY_6_14"
+  command_on: ''
+  
+'dish_key_7_14':
+  friendly_name: "Dish_KEY_7_14"
+  command_on: ''
+  
+'dish_key_8_14':
+  friendly_name: "Dish_KEY_8_14"
+  command_on: ''
+  
+'dish_key_9_14':
+  friendly_name: "Dish_KEY_9_14"
+  command_on: ''
+  
+'dish_key_0_14':
+  friendly_name: "Dish_KEY_0_14"
+  command_on: ''
+  
+'dish_key_menu_14':
+  friendly_name: "Dish_KEY_MENU_14"
+  command_on: ''
+  
+'dish_key_select_14':
+  friendly_name: "Dish_KEY_SELECT_14"
+  command_on: ''
+  
+'dish_key_cancel_14':
+  friendly_name: "Dish_KEY_CANCEL_14"
+  command_on: ''
+  
+'dish_key_epg_14':
+  friendly_name: "Dish_KEY_EPG_14"
+  command_on: ''
+  
+'dish_view_14':
+  friendly_name: "Dish_view_14"
+  command_on: ''
+  
+'dish_tv_vcr_14':
+  friendly_name: "Dish_tv_vcr_14"
+  command_on: ''
+  
+'dish_key_right_14':
+  friendly_name: "Dish_KEY_RIGHT_14"
+  command_on: ''
+  
+'dish_key_up_14':
+  friendly_name: "Dish_KEY_UP_14"
+  command_on: ''
+  
+'dish_key_again_14':
+  friendly_name: "Dish_KEY_AGAIN_14"
+  command_on: ''
+  
+'dish_key_left_14':
+  friendly_name: "Dish_KEY_LEFT_14"
+  command_on: ''
+  
+'dish_key_down_14':
+  friendly_name: "Dish_KEY_DOWN_14"
+  command_on: ''
+  
+'dish_key_record_14':
+  friendly_name: "Dish_KEY_RECORD_14"
+  command_on: ''
+  
+'dish_key_pause_14':
+  friendly_name: "Dish_KEY_PAUSE_14"
+  command_on: ''
+  
+'dish_key_stop_14':
+  friendly_name: "Dish_KEY_STOP_14"
+  command_on: ''
+  
+'dish_sys_info_14':
+  friendly_name: "Dish_sys_info_14"
+  command_on: ''
+  
+'dish_key_kpasterisk_14':
+  friendly_name: "Dish_KEY_KPASTERISK_14"
+  command_on: ''
+  
+'dish_pound_14':
+  friendly_name: "Dish_pound_14"
+  command_on: ''
+  
+'dish_power_off_14':
+  friendly_name: "Dish_power_off_14"
+  command_on: ''
+  
+'dish_key_sat_14':
+  friendly_name: "Dish_KEY_SAT_14"
+  command_on: ''
+  
+'dish_#_25':
+  friendly_name: "Dish_#_25"
+  command_on: ''
+  
+'dish_#_26':
+  friendly_name: "Dish_#_26"
+  command_on: ''
+  
+'dish_dish_home2_14':
+  friendly_name: "Dish_dish_home2_14"
+  command_on: ''
+  
+'dish_dvr_13':
+  friendly_name: "Dish_dvr_13"
+  command_on: ''
+  
+'dish_skip_fwd_13':
+  friendly_name: "Dish_skip_fwd_13"
+  command_on: ''
+  
+'dish_skip_back_13':
+  friendly_name: "Dish_skip_back_13"
+  command_on: ''
+  
+'dish_key_forward_13':
+  friendly_name: "Dish_KEY_FORWARD_13"
+  command_on: ''
+  
+'dish_key_play_13':
+  friendly_name: "Dish_KEY_PLAY_13"
+  command_on: ''
+  
+'dish_key_back_13':
+  friendly_name: "Dish_KEY_BACK_13"
+  command_on: ''
+  
+'dish_dish_13':
+  friendly_name: "Dish_dish_13"
+  command_on: ''
+  
+'dish_key_pageup_13':
+  friendly_name: "Dish_KEY_PAGEUP_13"
+  command_on: ''
+  
+'dish_key_pagedown_13':
+  friendly_name: "Dish_KEY_PAGEDOWN_13"
+  command_on: ''
+  
+'dish_key_info_15':
+  friendly_name: "Dish_KEY_INFO_15"
+  command_on: ''
+  
+'dish_key_power_15':
+  friendly_name: "Dish_KEY_POWER_15"
+  command_on: ''
+  
+'dish_key_power2_15':
+  friendly_name: "Dish_KEY_POWER2_15"
+  command_on: ''
+  
+'dish_key_1_15':
+  friendly_name: "Dish_KEY_1_15"
+  command_on: ''
+  
+'dish_key_2_15':
+  friendly_name: "Dish_KEY_2_15"
+  command_on: ''
+  
+'dish_key_3_15':
+  friendly_name: "Dish_KEY_3_15"
+  command_on: ''
+  
+'dish_key_4_15':
+  friendly_name: "Dish_KEY_4_15"
+  command_on: ''
+  
+'dish_key_5_15':
+  friendly_name: "Dish_KEY_5_15"
+  command_on: ''
+  
+'dish_key_6_15':
+  friendly_name: "Dish_KEY_6_15"
+  command_on: ''
+  
+'dish_key_7_15':
+  friendly_name: "Dish_KEY_7_15"
+  command_on: ''
+  
+'dish_key_8_15':
+  friendly_name: "Dish_KEY_8_15"
+  command_on: ''
+  
+'dish_key_9_15':
+  friendly_name: "Dish_KEY_9_15"
+  command_on: ''
+  
+'dish_key_0_15':
+  friendly_name: "Dish_KEY_0_15"
+  command_on: ''
+  
+'dish_key_menu_15':
+  friendly_name: "Dish_KEY_MENU_15"
+  command_on: ''
+  
+'dish_key_select_15':
+  friendly_name: "Dish_KEY_SELECT_15"
+  command_on: ''
+  
+'dish_key_cancel_15':
+  friendly_name: "Dish_KEY_CANCEL_15"
+  command_on: ''
+  
+'dish_key_epg_15':
+  friendly_name: "Dish_KEY_EPG_15"
+  command_on: ''
+  
+'dish_view_15':
+  friendly_name: "Dish_view_15"
+  command_on: ''
+  
+'dish_tv_vcr_15':
+  friendly_name: "Dish_tv_vcr_15"
+  command_on: ''
+  
+'dish_key_right_15':
+  friendly_name: "Dish_KEY_RIGHT_15"
+  command_on: ''
+  
+'dish_key_up_15':
+  friendly_name: "Dish_KEY_UP_15"
+  command_on: ''
+  
+'dish_key_again_15':
+  friendly_name: "Dish_KEY_AGAIN_15"
+  command_on: ''
+  
+'dish_key_left_15':
+  friendly_name: "Dish_KEY_LEFT_15"
+  command_on: ''
+  
+'dish_key_down_15':
+  friendly_name: "Dish_KEY_DOWN_15"
+  command_on: ''
+  
+'dish_key_record_15':
+  friendly_name: "Dish_KEY_RECORD_15"
+  command_on: ''
+  
+'dish_key_pause_15':
+  friendly_name: "Dish_KEY_PAUSE_15"
+  command_on: ''
+  
+'dish_key_stop_15':
+  friendly_name: "Dish_KEY_STOP_15"
+  command_on: ''
+  
+'dish_sys_info_15':
+  friendly_name: "Dish_sys_info_15"
+  command_on: ''
+  
+'dish_key_kpasterisk_15':
+  friendly_name: "Dish_KEY_KPASTERISK_15"
+  command_on: ''
+  
+'dish_pound_15':
+  friendly_name: "Dish_pound_15"
+  command_on: ''
+  
+'dish_power_off_15':
+  friendly_name: "Dish_power_off_15"
+  command_on: ''
+  
+'dish_key_sat_15':
+  friendly_name: "Dish_KEY_SAT_15"
+  command_on: ''
+  
+'dish_#_27':
+  friendly_name: "Dish_#_27"
+  command_on: ''
+  
+'dish_#_28':
+  friendly_name: "Dish_#_28"
+  command_on: ''
+  
+'dish_dish_home2_15':
+  friendly_name: "Dish_dish_home2_15"
+  command_on: ''
+  
+'dish_dvr_14':
+  friendly_name: "Dish_dvr_14"
+  command_on: ''
+  
+'dish_skip_fwd_14':
+  friendly_name: "Dish_skip_fwd_14"
+  command_on: ''
+  
+'dish_skip_back_14':
+  friendly_name: "Dish_skip_back_14"
+  command_on: ''
+  
+'dish_key_forward_14':
+  friendly_name: "Dish_KEY_FORWARD_14"
+  command_on: ''
+  
+'dish_key_play_14':
+  friendly_name: "Dish_KEY_PLAY_14"
+  command_on: ''
+  
+'dish_key_back_14':
+  friendly_name: "Dish_KEY_BACK_14"
+  command_on: ''
+  
+'dish_dish_14':
+  friendly_name: "Dish_dish_14"
+  command_on: ''
+  
+'dish_key_pageup_14':
+  friendly_name: "Dish_KEY_PAGEUP_14"
+  command_on: ''
+  
+'dish_key_pagedown_14':
+  friendly_name: "Dish_KEY_PAGEDOWN_14"
+  command_on: ''
+  
+'dish_key_info_16':
+  friendly_name: "Dish_KEY_INFO_16"
+  command_on: ''
+  
+'dish_key_power_16':
+  friendly_name: "Dish_KEY_POWER_16"
+  command_on: ''
+  
+'dish_key_power2_16':
+  friendly_name: "Dish_KEY_POWER2_16"
+  command_on: ''
+  
+'dish_key_1_16':
+  friendly_name: "Dish_KEY_1_16"
+  command_on: ''
+  
+'dish_key_2_16':
+  friendly_name: "Dish_KEY_2_16"
+  command_on: ''
+  
+'dish_key_3_16':
+  friendly_name: "Dish_KEY_3_16"
+  command_on: ''
+  
+'dish_key_4_16':
+  friendly_name: "Dish_KEY_4_16"
+  command_on: ''
+  
+'dish_key_5_16':
+  friendly_name: "Dish_KEY_5_16"
+  command_on: ''
+  
+'dish_key_6_16':
+  friendly_name: "Dish_KEY_6_16"
+  command_on: ''
+  
+'dish_key_7_16':
+  friendly_name: "Dish_KEY_7_16"
+  command_on: ''
+  
+'dish_key_8_16':
+  friendly_name: "Dish_KEY_8_16"
+  command_on: ''
+  
+'dish_key_9_16':
+  friendly_name: "Dish_KEY_9_16"
+  command_on: ''
+  
+'dish_key_0_16':
+  friendly_name: "Dish_KEY_0_16"
+  command_on: ''
+  
+'dish_key_menu_16':
+  friendly_name: "Dish_KEY_MENU_16"
+  command_on: ''
+  
+'dish_key_select_16':
+  friendly_name: "Dish_KEY_SELECT_16"
+  command_on: ''
+  
+'dish_key_cancel_16':
+  friendly_name: "Dish_KEY_CANCEL_16"
+  command_on: ''
+  
+'dish_key_epg_16':
+  friendly_name: "Dish_KEY_EPG_16"
+  command_on: ''
+  
+'dish_view_16':
+  friendly_name: "Dish_view_16"
+  command_on: ''
+  
+'dish_tv_vcr_16':
+  friendly_name: "Dish_tv_vcr_16"
+  command_on: ''
+  
+'dish_key_right_16':
+  friendly_name: "Dish_KEY_RIGHT_16"
+  command_on: ''
+  
+'dish_key_up_16':
+  friendly_name: "Dish_KEY_UP_16"
+  command_on: ''
+  
+'dish_key_again_16':
+  friendly_name: "Dish_KEY_AGAIN_16"
+  command_on: ''
+  
+'dish_key_left_16':
+  friendly_name: "Dish_KEY_LEFT_16"
+  command_on: ''
+  
+'dish_key_down_16':
+  friendly_name: "Dish_KEY_DOWN_16"
+  command_on: ''
+  
+'dish_key_record_16':
+  friendly_name: "Dish_KEY_RECORD_16"
+  command_on: ''
+  
+'dish_key_pause_16':
+  friendly_name: "Dish_KEY_PAUSE_16"
+  command_on: ''
+  
+'dish_key_stop_16':
+  friendly_name: "Dish_KEY_STOP_16"
+  command_on: ''
+  
+'dish_sys_info_16':
+  friendly_name: "Dish_sys_info_16"
+  command_on: ''
+  
+'dish_key_kpasterisk_16':
+  friendly_name: "Dish_KEY_KPASTERISK_16"
+  command_on: ''
+  
+'dish_pound_16':
+  friendly_name: "Dish_pound_16"
+  command_on: ''
+  
+'dish_power_off_16':
+  friendly_name: "Dish_power_off_16"
+  command_on: ''
+  
+'dish_key_sat_16':
+  friendly_name: "Dish_KEY_SAT_16"
+  command_on: ''
+  
+'dish_#_29':
+  friendly_name: "Dish_#_29"
+  command_on: ''
+  
+'dish_#_30':
+  friendly_name: "Dish_#_30"
+  command_on: ''
+  
+'dish_dish_home2_16':
+  friendly_name: "Dish_dish_home2_16"
+  command_on: ''
+  
+'dish_dvr_15':
+  friendly_name: "Dish_dvr_15"
+  command_on: ''
+  
+'dish_skip_fwd_15':
+  friendly_name: "Dish_skip_fwd_15"
+  command_on: ''
+  
+'dish_skip_back_15':
+  friendly_name: "Dish_skip_back_15"
+  command_on: ''
+  
+'dish_key_forward_15':
+  friendly_name: "Dish_KEY_FORWARD_15"
+  command_on: ''
+  
+'dish_key_play_15':
+  friendly_name: "Dish_KEY_PLAY_15"
+  command_on: ''
+  
+'dish_key_back_15':
+  friendly_name: "Dish_KEY_BACK_15"
+  command_on: ''
+  
+'dish_dish_15':
+  friendly_name: "Dish_dish_15"
+  command_on: ''
+  
+'dish_key_pageup_15':
+  friendly_name: "Dish_KEY_PAGEUP_15"
+  command_on: ''
+  
+'dish_key_pagedown_15':
+  friendly_name: "Dish_KEY_PAGEDOWN_15"
+  command_on: ''
+  
+'dish_key_info_17':
+  friendly_name: "Dish_KEY_INFO_17"
+  command_on: ''
+  
+'dish_key_power_17':
+  friendly_name: "Dish_KEY_POWER_17"
+  command_on: ''
+  
+'dish_key_power2_17':
+  friendly_name: "Dish_KEY_POWER2_17"
+  command_on: ''
+  
+'dish_key_1_17':
+  friendly_name: "Dish_KEY_1_17"
+  command_on: ''
+  
+'dish_key_2_17':
+  friendly_name: "Dish_KEY_2_17"
+  command_on: ''
+  
+'dish_key_3_17':
+  friendly_name: "Dish_KEY_3_17"
+  command_on: ''
+  
+'dish_key_4_17':
+  friendly_name: "Dish_KEY_4_17"
+  command_on: ''
+  
+'dish_key_5_17':
+  friendly_name: "Dish_KEY_5_17"
+  command_on: ''
+  
+'dish_key_6_17':
+  friendly_name: "Dish_KEY_6_17"
+  command_on: ''
+  
+'dish_key_7_17':
+  friendly_name: "Dish_KEY_7_17"
+  command_on: ''
+  
+'dish_key_8_17':
+  friendly_name: "Dish_KEY_8_17"
+  command_on: ''
+  
+'dish_key_9_17':
+  friendly_name: "Dish_KEY_9_17"
+  command_on: ''
+  
+'dish_key_0_17':
+  friendly_name: "Dish_KEY_0_17"
+  command_on: ''
+  
+'dish_key_menu_17':
+  friendly_name: "Dish_KEY_MENU_17"
+  command_on: ''
+  
+'dish_key_select_17':
+  friendly_name: "Dish_KEY_SELECT_17"
+  command_on: ''
+  
+'dish_key_cancel_17':
+  friendly_name: "Dish_KEY_CANCEL_17"
+  command_on: ''
+  
+'dish_key_epg_17':
+  friendly_name: "Dish_KEY_EPG_17"
+  command_on: ''
+  
+'dish_view_17':
+  friendly_name: "Dish_view_17"
+  command_on: ''
+  
+'dish_tv_vcr_17':
+  friendly_name: "Dish_tv_vcr_17"
+  command_on: ''
+  
+'dish_key_right_17':
+  friendly_name: "Dish_KEY_RIGHT_17"
+  command_on: ''
+  
+'dish_key_up_17':
+  friendly_name: "Dish_KEY_UP_17"
+  command_on: ''
+  
+'dish_key_again_17':
+  friendly_name: "Dish_KEY_AGAIN_17"
+  command_on: ''
+  
+'dish_key_left_17':
+  friendly_name: "Dish_KEY_LEFT_17"
+  command_on: ''
+  
+'dish_key_down_17':
+  friendly_name: "Dish_KEY_DOWN_17"
+  command_on: ''
+  
+'dish_key_record_17':
+  friendly_name: "Dish_KEY_RECORD_17"
+  command_on: ''
+  
+'dish_key_pause_17':
+  friendly_name: "Dish_KEY_PAUSE_17"
+  command_on: ''
+  
+'dish_key_stop_17':
+  friendly_name: "Dish_KEY_STOP_17"
+  command_on: ''
+  
+'dish_sys_info_17':
+  friendly_name: "Dish_sys_info_17"
+  command_on: ''
+  
+'dish_key_kpasterisk_17':
+  friendly_name: "Dish_KEY_KPASTERISK_17"
+  command_on: ''
+  
+'dish_pound_17':
+  friendly_name: "Dish_pound_17"
+  command_on: ''
+  
+'dish_power_off_17':
+  friendly_name: "Dish_power_off_17"
+  command_on: ''
+  
+'dish_key_sat_17':
+  friendly_name: "Dish_KEY_SAT_17"
+  command_on: ''
+  
+'dish_#_31':
+  friendly_name: "Dish_#_31"
+  command_on: ''
+  
+'dish_#_32':
+  friendly_name: "Dish_#_32"
+  command_on: ''
+  
+'dish_dish_home2_17':
+  friendly_name: "Dish_dish_home2_17"
+  command_on: ''
+  
+'dish_dvr_16':
+  friendly_name: "Dish_dvr_16"
+  command_on: ''
+  
+'dish_skip_fwd_16':
+  friendly_name: "Dish_skip_fwd_16"
+  command_on: ''
+  
+'dish_skip_back_16':
+  friendly_name: "Dish_skip_back_16"
+  command_on: ''
+  
+'dish_key_forward_16':
+  friendly_name: "Dish_KEY_FORWARD_16"
+  command_on: ''
+  
+'dish_key_play_16':
+  friendly_name: "Dish_KEY_PLAY_16"
+  command_on: ''
+  
+'dish_key_back_16':
+  friendly_name: "Dish_KEY_BACK_16"
+  command_on: ''
+  
+'dish_dish_16':
+  friendly_name: "Dish_dish_16"
+  command_on: ''
+  
+'dish_key_pageup_16':
+  friendly_name: "Dish_KEY_PAGEUP_16"
+  command_on: ''
+  
+'dish_key_pagedown_16':
+  friendly_name: "Dish_KEY_PAGEDOWN_16"
+  command_on: ''
+  

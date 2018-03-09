@@ -1,0 +1,25 @@
+usb_path: /dev/zwave
+network_key: !secret zwave_network_key
+polling_interval: 30000
+debug: true
+autoheal: true
+  
+device_config:
+  light.hallwaylights_level:
+    polling_intensity: 1
+    refresh_value: true
+  light.kitchenlights_level:
+    polling_intensity: 1
+    refresh_value: true
+  light.masterbedroom_ceilingfanlights_level:
+    polling_intensity: 1
+    refresh_value: true
+  light.masterbedroom_mainlights_level:
+    polling_intensity: 1
+    refresh_value: true
+  light.fronporchlights_level:
+    polling_intensity: 1
+    refresh_value: true
+  light.backdecklights_level:
+    polling_intensity: 1
+    refresh_value: true

@@ -1,0 +1,4 @@
+outside_lights:
+  entities:
+    - light.frontporchlights_level
+    - light.backdecklights_level

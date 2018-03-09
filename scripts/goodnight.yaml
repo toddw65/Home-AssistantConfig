@@ -1,0 +1,15 @@
+sequence:
+- service: lock.lock
+  entity_id: lock.frontdoorlock_locked
+- service: light.turn_off
+- service: switch.turn_on
+  entity_id: switch.box_fan
+- service: media_player.volume_set
+  entity_id: media_player.all_speakers
+  data_template:
+    volume_level: 0.5
+- service: tts.google_say
+  entity_id: media_player.all_speakers
+  data:
+    message: 'Ive locked the front door and turned off all the lights.  Goodnight.'  
+    cache: false

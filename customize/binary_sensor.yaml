@@ -1,0 +1,78 @@
+binary_sensor.floorplan:
+  #custom_ui_state_card: floorplan
+  custom_ui_state_card: state-card-floorplan
+  config:
+    name: Wilkinson Floorplan
+    image: /local/custom_ui/floorplan/floorplan.svg
+    stylesheet: /local/custom_ui/floorplan/floorplan.css
+    config: !include /config/floorplan.yaml
+    warnings:
+    pan_zoom:
+    hide_app_toolbar:
+    date_format: MMM-DD-YYYY
+    last_motion_entity: sensor.template_last_motion
+    last_motion_class: last-motion
+    groups:
+    - name: Sensors
+      entities:
+      - sensor.time
+      - sensor.date
+      - sensor.dark_sky_temperature
+      text_template: '${entity.state ? Math.ceil(entity.state) : "undefined"}'
+      class_template: " var temp = parseFloat(entity.state.replace(\"\xB0\", \"\"\
+        )); if (temp < 10) return \"temp-low\"; else if (temp < 30) return \"temp-medium\"\
+        ; else return \"temp-high\"; "
+    - name: Lights
+      entities:
+      - light.hallwaylights_level
+      - light.kitchenlights_level
+      - light.masterbedroom_mainlights_level
+      - light.masterbedroom_ceilingfanlights_level
+      - group.master_bedroom
+      states:
+      - state: 'on'
+        class: light-on
+      - state: 'off'
+        class: light-off
+      action:
+        domain: homeassistant
+        service: toggle
+    - name: Media Players
+      entities:
+      - media_player.office
+      - media_player.great_room
+      - media_player.kitchen
+      - media_player.master_bedroom
+      - media_player.pool
+    - name: Cameras
+      entities:
+      - camera.pool
+      - camera.frontdoor
+      states:
+      - state: idle
+        class: camera-idle
+
+light.kitchenlights_level:
+  friendly_name: Kitchen Lights
+  icon: mdi:lightbulb-outline
+light.hallwaylights_level:
+  friendly_name: Hallway Lights
+  icon: mdi:lightbulb-outline
+light.masterbedroom_ceilingfanlights_level:
+  friendly_name: Master Bedroom Ceiling Fan Lights
+  icon: mdi:lightbulb-outline
+light.masterbedroom_mainlights_level:
+  friendly_name: Master Bedroom Main Lights
+  icon: mdi:lightbulb-outline
+
+script.radio538:
+  friendly_name: Start Playing
+  icon: mdi:play
+
+media_player.google_media_player:
+  supported_features: 2230
+
+sensor.todd_status:
+  entity_picture: /local/Todd1.jpg
+sensor.angela_status:
+  entity_picture: /local/Angela1.jpg

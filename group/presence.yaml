@@ -1,0 +1,30 @@
+################
+#   Housenold  #
+################
+household:
+  name: Household
+  icon: mdi:account-multiple
+  view: yes
+  entities:
+    - group.todd
+    - group.angela
+    - camera.angela
+    - camera.todd
+    - sensor.find_location_sensor
+    
+    
+###########################
+
+todd:
+  name: Todd
+  entities:
+    - sensor.todd_home
+angela:
+  name: Angela
+  entities:
+    - sensor.angela_home
+both:
+  name: Both of us
+  entities:
+    - sensor.angela_home
+    - sensor.todd_home

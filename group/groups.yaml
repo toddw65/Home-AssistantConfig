@@ -1,0 +1,205 @@
+default_view:
+    view: yes
+    icon: mdi:home
+    entities:
+      - sensor.dark_sky_apparent_temperature
+      - sensor.dark_sky_daily_high_apparent_temperature
+      - sensor.dark_sky_daily_high_temperature
+      - sensor.dark_sky_daily_low_apparent_temperature
+      - sensor.dark_sky_daily_low_temperature
+      - sensor.dark_sky_humidity
+      - sensor.dark_sky_minutely_summary
+      - sensor.dark_sky_precip
+      - sensor.dark_sky_precip_intensity
+      - sensor.dark_sky_precip_probability
+      - sensor.dark_sky_pressure
+      - sensor.dark_sky_summary
+      - sensor.dark_sky_temperature
+      - sensor.dark_sky_visibility
+      - sensor.dark_sky_wind_bearing
+      - sensor.dark_sky_wind_speed
+      - script.jarvis_greeting
+      - input_boolean.script_trigger
+   
+Kitchen:
+    view: yes
+    icon: mdi:fridge
+    entities:
+      - light.kitchenlights_level
+      - media_player.kitchen_speaker
+      - light.gateway_light_7811dcb8f8c1
+      - sensor.illumination_7811dcb8f8c1
+
+Hallway:
+    view: yes
+    icon: mdi:walk
+    entities:
+      - light.hallwaylights_level
+      
+Master Bedroom:
+    view: yes
+    icon: mdi:hotel
+    entities:
+      - light.masterbedroom_ceilingfanlights_level
+      - light.masterbedroom_mainlights_level
+      - switch.box_fan
+      - media_player.master_bedroom_tv
+      - media_player.master_bedroom_speaker
+
+Master Bathroom:
+    view: yes
+    entities:
+      - light.masterbathroom_mainlights_level
+      - media_player.master_bath_speaker
+      - sensor.master_bath_room_temperature
+      - sensor.master_bath_floor_temperature
+      - climate.master_bathroom_thermostat
+      
+Office:
+    view: yes
+    entities:
+      - sensor.office_temperature
+      - media_player.office_speaker
+      - media_player.office_dish
+Pool:
+    view: yes
+    entities:
+      - camera.pool
+      - switch.main_pool_pump
+      #- script.pool_motion_on
+
+Entry:
+  view: yes
+  entities:
+      - camera.frontdoor
+      - Lock.FrontDoorLock_locked
+      - Sensor.FrontDoorLock_access_control
+      - Sensor.FrontDoorLock_alarm_level
+      - Sensor.FrontDoorLock_alarm_type
+      - Sensor.FrontDoorLock_burglar
+      - Sensor.FrontDoorLock_power_management
+      - Sensor.FrontDoorLock_system
+      - Sensor.FrontDoor_battery
+      - light.FrontPorchLights_level
+
+Great Room:
+    view: yes
+    entities:
+      - media_player.plex
+      - media_player.great_room_tv
+      #- script.christmas_tree_onoff
+      #- script.christmas_tree_color
+      #- script.christmas_tree_mode
+      - binary_sensor.OpenMQTTGateway
+      - sensor.mqtt_rf_gateway
+      - light.BackDeckLights_level
+      
+Security:
+    view: yes
+    entities:
+      - sensor.laundryroom_smokeco_detector_status
+      - sensor.laundryroom_smokeco_detector_batterylevel
+      - camera.pool
+      - camera.frontdoor
+      - camera.grafana_temperatures
+      - camera.grafana_power_usage
+      - camera.propane_level
+      
+House Radio:
+    view: yes
+    entities:
+      - input_select.radio_station
+      - input_select.chromecast_radio
+      - script.chromecast_radio
+      - input_number.volume_radio
+      - script.stop_chromecast_radio
+
+Media Players:
+    view: yes
+    entities:
+      - media_player.google_media_player
+      - media_player.great_room_tv
+      - media_player.kitchen_speaker
+      - media_player.master_bedroom_speaker
+      - media_player.office_speaker
+    
+Touch Screen:
+    view: yes
+    entities:
+      - alarm_control_panel.ha_alarm
+      - alarm_control_panel.ha_alarm
+      - automation.haswitchplate_active_page_slider_changed
+      - automation.haswitchplate_alarm_arm
+      - automation.haswitchplate_alarm_disarm
+      - automation.haswitchplate_alarmcodeentry_0
+      - automation.haswitchplate_alarmcodeentry_1to9
+      - automation.haswitchplate_alarmstatus_armed
+      - automation.haswitchplate_alarmstatus_disarmed
+      - automation.haswitchplate_alarmstatus_pending
+      - automation.haswitchplate_clock
+      - automation.haswitchplate_clock_init
+      - automation.haswitchplate_connected
+      - automation.haswitchplate_dimmers_init
+      - automation.haswitchplate_media_artist
+      - automation.haswitchplate_media_init
+      - automation.haswitchplate_media_nexttrackbutton8
+      - automation.haswitchplate_media_pausebutton7
+      - automation.haswitchplate_media_playpause
+      - automation.haswitchplate_media_prevtrackbutton6
+      - automation.haswitchplate_media_title
+      - automation.haswitchplate_media_volsliderupdatehasp
+      - automation.haswitchplate_media_volsliderupdatehass
+      - automation.haswitchplate_p4b7_dimmersliderupdatehasp
+      - automation.haswitchplate_p4b7_dimmersliderupdatehass
+      - automation.haswitchplate_p4b8_dimmersliderupdatehasp
+      - automation.haswitchplate_p4b8_dimmersliderupdatehass
+      - automation.haswitchplate_p4b9_dimmersliderupdatehasp
+      - automation.haswitchplate_p4b9_dimmersliderupdatehass
+      - automation.haswitchplate_page7_alarmcodekeylabelarmed
+      - automation.haswitchplate_page7_alarmcodekeylabeldisarmed
+      - automation.haswitchplate_page7_alarmcodekeylabels
+      - automation.haswitchplate_pagebutton1_action
+      - automation.haswitchplate_pagebutton1_text
+      - automation.haswitchplate_pagebutton2_action
+      - automation.haswitchplate_pagebutton2_text
+      - automation.haswitchplate_pagebutton3_action
+      - automation.haswitchplate_pagebutton3_text
+      - automation.haswitchplate_pagebutton_colors
+      - automation.haswitchplate_panel_page_changed
+      - automation.haswitchplate_scenebutton4
+      - automation.haswitchplate_scenebutton5
+      - automation.haswitchplate_scenebutton6
+      - automation.haswitchplate_scenebutton7
+      - automation.haswitchplate_scenes_init
+      - automation.haswitchplate_weather
+      - automation.haswitchplate_thermostat
+      - input_number.haswitchplate_active_page
+      - input_number.haswitchplate_alarmcode1
+      - input_number.haswitchplate_alarmcode2
+      - input_number.haswitchplate_alarmcode3
+      - input_number.haswitchplate_alarmcode4
+      - input_number.haswitchplate_pagebutton1_page
+      - input_number.haswitchplate_pagebutton2_page
+      - input_number.haswitchplate_pagebutton3_page
+      - input_text.haswitchplate_pagebutton1_label
+      - input_text.haswitchplate_pagebutton2_label
+      - input_text.haswitchplate_pagebutton3_label
+      - light.light_1
+      - light.light_2
+      - light.light_3
+      - media_player.google_media_player
+      - scene.ambience
+      - scene.daylight
+      - scene.goodbye
+      - scene.goodnight
+      - scene.hello
+      - scene.lights_off
+      - scene.lights_on
+      - scene.morning
+      - scene.morningab
+      - scene.night
+      - scene.sunset
+      - sensor.media_player_artist
+      - sensor.media_player_title
+      - sensor.media_player_volume
+

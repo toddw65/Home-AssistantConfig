@@ -1,0 +1,43 @@
+#- platform: bluetooth_tracker
+#  track_new_devices: yes
+#  interval_seconds: 30
+
+  - platform: asuswrt
+    host: 192.168.0.1
+    username: admin
+    password: sierra91
+  
+  - platform: nmap_tracker
+    hosts: 192.168.0.133-134
+    home_interval: 10
+    scan_options: " --privileged -sP "
+    new_device_defaults:
+      track_new_devices: True
+      hide_if_away: False
+  
+  - platform: mqtt
+    new_device_defaults:
+      track_new_devices: True
+      hide_if_away: False
+    devices:
+      todd_bt: 'homeassistant/device_tracker/toddnote4/state'
+      angela_bt: 'homeassistant/device_tracker/angelanote5/state'
+
+  - platform: ping
+    hosts:
+      todd_ping: 192.168.0.134
+      angela_ping: 192.168.0.133
+    new_device_defaults:
+      track_new_devices: True
+      hide_if_away: False
+      
+  - platform: owntracks
+    max_gps_accuracy: 100
+    waypoints: True
+    mqtt_topic: "owntracks/#"
+
+#  - platform: mqtt_json
+#    max_gps_accuracy: 100
+#    devices:
+#      angela_zanzito: zanzito/angela/location
+#      todd_zanzito: zanzito/todd/location

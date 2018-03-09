@@ -1,0 +1,25 @@
+- platform: cast
+  
+#- platform: plex
+#  entity_namespace: 'plex'
+#  include_non_clients: true
+#  scan_interval: 5
+#  show_all_controls: true
+#  use_custom_entity_ids: true
+#  use_episode_art: true
+  
+- platform: gpmdp
+  name: "google_media_player"
+  host: 192.168.0.169   
+
+- platform: broadlink
+  name: Office TV & Dish
+  host: 192.168.0.132
+  mac: !secret broadlink_ir_office
+  ircodes_ini: '/devices/broadlink/broadlink_media_codes/office.ini'
+    
+- platform: broadlink
+  name: Master Bedroom TV & Dish
+  host: 192.168.0.126
+  mac: !secret broadlink_ir_masterbedroom
+  ircodes_ini: '/devices/broadlink/broadlink_media_codes/master_bedroom.ini'

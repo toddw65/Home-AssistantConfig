@@ -1,0 +1,31 @@
+- name: floorplan
+  sidebar_title: Floorplan
+  sidebar_icon: mdi:home
+  url_path: floorplan
+  config: !include /config/floorplan.yaml
+
+- name: alarm
+  sidebar_title: Alarm
+  sidebar_icon: mdi:security-home
+  config:
+    alarmid: alarm_control_panel.house ## USE THE SAME ID AS USED IN YOUR ALARM.YAML
+
+#- name: temps
+#  sidebar_title: Temperatures
+#  sidebar_icon: mdi:thermometer
+#  url: 'http://192.168.0.100:3003/dashboard/db/main?panelId=1&fullscreen'    
+#  - name: alarm
+#    sidebar_title: Alarm Panel
+#    sidebar_icon: mdi:security-home
+#    url_path: floorplan
+#    config:
+#      hide_app_toolbar:
+#      config: /local/custom_ui/floorplan/flooralarm.yaml
+  
+#  - name: clock
+#    sidebar_title: Alarm Clock
+#    sidebar_icon: mdi:alarm
+#    url_path: clock
+#    config:
+#      hide_app_toolbar:
+#      config: /local/custom_ui/floorplan/floorclock.yaml      

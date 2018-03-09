@@ -1,0 +1,18 @@
+- platform: mqtt
+  name: "Light 1"
+  command_topic: "homeassistant/light/light1"
+  state_topic: "homeassistant/light/light1"
+  brightness_command_topic: "homeassistant/light/light1/bright"
+  brightness_state_topic: "homeassistant/light/light1/bright"
+- platform: mqtt
+  name: "Light 2"
+  command_topic: "homeassistant/light/light2"
+  state_topic: "homeassistant/light/light2"
+  brightness_command_topic: "homeassistant/light/light2/bright"
+  brightness_state_topic: "homeassistant/light/light2/bright"
+- platform: mqtt
+  name: "Light 3"
+  command_topic: "homeassistant/light/light3"
+  state_topic: "homeassistant/light/light3"
+  brightness_command_topic: "homeassistant/light/light3/bright"
+  brightness_state_topic: "homeassistant/light/light3/bright"

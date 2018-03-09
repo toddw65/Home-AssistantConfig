@@ -1,0 +1,317 @@
+###  Global configuration  ###
+homeassistant:
+  name: Home
+  unit_system: imperial
+  time_zone: America/New_York
+  elevation: 385
+  customize: !include_dir_merge_named customize
+  packages: !include_dir_named packages
+  latitude: !secret zone_home_lat
+  longitude: !secret zone_home_long
+
+###  Zones  ###
+zone:
+  - name: Office
+    latitude: !secret zone_office_lat
+    longitude: !secret zone_office_long
+    radius: 100
+    icon: mdi:worker
+  - name: Home
+    latitude: !secret zone_home_lat
+    longitude: !secret zone_home_long
+    radius: 100
+    icon: mdi:worker 
+    
+panel_custom: !include panel_custom.yaml
+binary_sensor: !include devices/binary_sensors.yaml
+alarm_control_panel: !include alarm.yaml
+
+mqtt_eventstream:
+  publish_topic: home/states
+
+panel_iframe:
+  temps:
+    title: 'Temperatures'
+    icon: mdi:thermometer
+    url: 'http://192.168.0.100:3003/dashboard/db/temperatures?panelId=1&fullscreen' 
+  power:
+    title: 'House Power Usage'
+    icon: mdi:power-socket-us
+    url: 'http://192.168.0.100:3003/dashboard/db/electricity-usage?panelId=1&fullscreen' 
+  batery:
+    title: 'Battery Levels'
+    icon: mdi:battery-charging
+    url: 'http://192.168.0.100:3003/dashboard/db/battery_levels?panelId=1&fullscreen' 
+  brightness:
+    title: 'House Brightness'
+    icon: mdi:white-balance-sunny
+    url: 'http://192.168.0.100:3003/dashboard/db/brightness?panelId=1&fullscreen' 
+
+influxdb:
+  host: 127.0.0.1
+
+# Enables the frontend
+frontend: 
+  extra_html_url:
+    - /local/custom_ui/state-card-floorplan.html
+  themes: !include_dir_merge_named themes/
+
+recorder:
+  db_url: "mysql://hass:sierra91@192.168.0.100/hass_db?charset=utf8"
+  
+# Enables configuration UI
+config:
+
+###  Devices  ###
+#device_tracker: !include devices/device_trackers.yaml
+media_player: !include devices/media_players.yaml
+camera: !include devices/cameras.yaml
+switch: !include devices/switches.yaml
+sensor: !include_dir_merge_list devices/sensors/
+light: !include devices/lights.yaml
+
+xiaomi_aqara:
+  discovery_retry: 5
+  gateways:
+    - key: nn8q4b5wqym54hl0
+    
+###  Logger  ###
+logger:
+  default: error
+  logs:
+    homeassistant.components.python_script: debug
+    requests.packages.urllib3: critical
+    homeassistant.components.mqtt: warn
+    homeassistant.components.camera: critical
+
+###  Groups  ###
+group: !include_dir_merge_named group/
+
+###  Scenes  ###
+scene: !include_dir_merge_list scenes/
+
+### Scripts ###
+script: !include_dir_named scripts
+#script: !include_dir_merge_named scripts
+
+### Automation ###
+automation: !include_dir_merge_list automation/
+
+### Climate ###
+climate: !include_dir_merge_list climate/
+
+### Notification ###
+#notify: !include notify.yaml
+
+### ZWave ###
+zwave: !include zwave.yaml
+
+python_script:
+
+http:
+  base_url: 192.168.0.100:8123
+  api_password: !secret http_password
+
+# Checks for available updates
+# Note: This component will send some information about your system to
+# the developers to assist with development of Home Assistant.
+# For more information, please see:
+# https://home-assistant.io/blog/2016/10/25/explaining-the-updater/
+updater:
+  # Optional, allows Home Assistant developers to focus on popular components.
+  include_used_components: true
+
+# Discover some devices automatically
+discovery:
+
+tts:
+  - platform: google
+
+# Allows you to issue voice commands from the frontend in enabled browsers
+conversation:
+
+# Enables support for tracking state changes over time
+history:
+
+# View all events in a logbook
+logbook:
+
+# Track the sun
+sun:
+
+#############################################################
+## GOOGLE ASSISTANT
+#############################################################
+
+google_assistant:
+  project_id: hass-cfa6b
+  agent_user_id: !secret google_assistant_agent_user_id
+  client_id: !secret google_assistant_client_id
+  access_token: !secret google_assistant_access_token
+  api_key: !secret google_assistant_api_key
+  expose_by_default: true
+  exposed_domains:
+    - switch
+    - light
+#    - cover
+#    - media_player
+    - group
+    - fan
+#    - scene
+    - script
+#    - lock
+    - climate
+
+device_tracker: !include devices/device_tracking.yaml
+
+input_select:
+  radio_station:
+    name: 'Select Radio Station:'
+    options:
+      - Rush/Shawn
+      - Jazz Radio Blues
+      - Hot 95.9 Orlando
+      - Rocksmith on Google Play
+      - Jazz Radio - Black Music
+      - RadioU Christmas Channel
+      - RadioU Live
+      - RadioU Hardcore
+      - RadioU Hip Hop
+      - BNR Nieuwsradio
+      - SLAM! Hardstyle
+      - Sleep Radio
+      - Ambient Sleeping Pill
+      - Radio Art - Sleep
+      - Ambi Nature Radio
+      - Calm Radio - Sleep
+      - Dinamo.FM Sleep
+  chromecast_radio:
+    name: 'Select Speakers:'
+    options:
+      - Office
+      - Master Bedroom
+      - Kitchen
+      - Everywhere
+    initial: Office
+    icon: mdi:speaker-wireless
+    
+  current_theme:
+    name: Theme
+    options:
+      - dark
+      - darker
+      - night
+      - midnight
+      - default
+    initial: dark
+    icon: mdi:theme-light-dark
+
+input_text:
+  haswitchplate_pagebutton1_label:
+    name: HASP Page Button 1 Label
+    icon: mdi:book-open-page-variant
+  haswitchplate_pagebutton2_label:
+    name: HASP Page Button 2 Label
+    icon: mdi:book-open-page-variant
+  haswitchplate_pagebutton3_label:
+    name: HASP Page Button 3 Label
+    icon: mdi:book-open-page-variant
+
+    
+input_number:
+  haswitchplate_pagebutton1_page:
+    name: HASP Page Button 1 Page
+    icon: mdi:format-list-numbers
+    min: 0
+    max: 9
+    step: 1
+  haswitchplate_pagebutton2_page:
+    name: HASP Page Button 2 Page
+    icon: mdi:format-list-numbers
+    min: 0
+    max: 9
+    step: 1
+  haswitchplate_pagebutton3_page:
+    name: HASP Page Button 3 Page
+    icon: mdi:format-list-numbers
+    min: 0
+    max: 9
+    step: 1
+  haswitchplate_active_page:
+    name: HASP Active Page
+    icon: mdi:format-list-numbers
+    min: 0
+    max: 9
+    step: 1
+  haswitchplate_alarmcode1:
+    name: AlarmCode1
+    icon: mdi:format-list-numbers
+    min: -1
+    max: 9
+    step: 1
+    initial: -1
+  haswitchplate_alarmcode2:
+    name: AlarmCode2
+    icon: mdi:format-list-numbers
+    min: -1
+    max: 9
+    step: 1
+    initial: -1
+  haswitchplate_alarmcode3:
+    name: AlarmCode3
+    icon: mdi:format-list-numbers
+    min: -1
+    max: 9
+    step: 1
+    initial: -1
+  haswitchplate_alarmcode4:
+    name: AlarmCode4
+    icon: mdi:format-list-numbers
+    min: -1
+    max: 9
+    step: 1
+    initial: -1
+  volume_radio:
+    name: Volume
+    icon: mdi:volume-high
+    initial: .3
+    min: 0
+    max: 1
+    step: 0.05
+
+input_boolean:
+  script_trigger:
+    name: Trigger Appdaemon script
+    initial: off
+    
+ifttt:
+  key: !secret ifttt_key
+
+mqtt:
+  broker: 192.168.0.100
+  username: !secret mqtt_username
+  password: !secret mqtt_password
+  client_id: homeassistant
+  discovery: true
+  discovery_prefix: homeassistant
+
+
+notify:
+  - name: facebook
+    platform: facebook
+    page_access_token: !secret facebook_page_access_token
+  - name: todd_zanzito
+    platform: zanzito
+    device-name: todd
+  - name: angela_zanzito
+    platform: zanzito
+    device-name: angela
+
+usps:
+  username: !secret usps_username
+  password: !secret usps_password    
+
+#alarm_control_panel:
+#  - platform: manual
+#    code: !secret alarm_control_panel_code
+
